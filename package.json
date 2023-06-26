@@ -23,6 +23,7 @@
     "typescript": "5.1.3"
   },
   "devDependencies": {
-    "@murandido/eslint-config": "^1.0.0"
+    "@murandido/eslint-config": "^1.0.0",
+    "prettier-plugin-tailwindcss": "^0.3.0"
   }
 }

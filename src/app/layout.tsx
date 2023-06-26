@@ -16,7 +16,9 @@ const righteous = Righteous({
 export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html lang="en">
-      <body className={`${robotoSlab.variable} ${righteous.variable}`}>
+      <body
+        className={`${robotoSlab.variable} ${righteous.variable} bg-secondary-300 font-righteous`}
+      >
         {children}
       </body>
     </html>
