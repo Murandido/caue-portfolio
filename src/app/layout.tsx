@@ -18,7 +18,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html lang="en">
       <body
-        className={`${robotoSlab.variable} ${righteous.variable} bg-secondary-300 font-righteous`}
+        className={`${robotoSlab.variable} ${righteous.variable} scroll-smooth bg-secondary-300 font-righteous selection:bg-primary-300 selection:text-secondary-200`}
       >
         <Header />
         {children}
