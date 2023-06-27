@@ -50,6 +50,10 @@ module.exports = {
           900: "#504f51",
         },
       },
+
+      screens: {
+        xs: "384px",
+      },
     },
   },
   plugins: [],
