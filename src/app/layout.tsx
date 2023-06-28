@@ -1,5 +1,6 @@
 import { ReactNode } from "react";
-import "./globals.css";
+import "../styles/globals.css";
+import "../styles/ProjectLink.css";
 import { Roboto_Slab as Roboto, Righteous } from "next/font/google";
 import Header from "@/components/Header";
 
