@@ -19,7 +19,11 @@ export default function Footer() {
           </div>
         </div>
         <div className="flex justify-center gap-4">
-          <a href="https://www.instagram.com/studiocauehenrique/">
+          <a
+            href="https://www.instagram.com/studiocauehenrique/"
+            target="_blank"
+            rel="noreferrer"
+          >
             <Image
               className="w-12 transition-transform hover:scale-105 max-sm:w-5"
               src={instagramLogoSVG}
@@ -28,7 +32,11 @@ export default function Footer() {
               height={48}
             />
           </a>
-          <a href="https://www.behance.net/cauehenryque">
+          <a
+            href="https://www.behance.net/cauehenryque"
+            target="_blank"
+            rel="noreferrer"
+          >
             <Image
               className="w-12 transition-transform hover:scale-105 max-sm:w-5"
               src={behanceLogoSVG}
