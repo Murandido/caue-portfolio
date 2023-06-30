@@ -17,7 +17,7 @@ export default function Home() {
             year={2023}
             imgUrl="https://drive.google.com/uc?export=view&id=1t5Mi5DMHaigeuFZuYxMFn83PFeufNyMC"
             imgAlt="Real Limpeza Banner"
-            linkToPage="#"
+            linkToPage="works/reallimpeza/"
           />
           <ProjectLink
             name="Devine"
