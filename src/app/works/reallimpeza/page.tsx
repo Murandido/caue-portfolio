@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Hero from "@/components/realLimpeza/Hero";
+import Hero from "@/components/Hero";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -10,18 +10,23 @@ export default function RealLimpezaPage() {
   return (
     <main>
       <div className="flex min-w-[338.55px] flex-wrap-reverse items-center justify-center gap-5">
-        <Hero />
+        <Hero
+          title="Real Limpeza"
+          description="Real Limpeza is a company specialized in residential, commercial and industrial cleaning services, including glass, facade and post-construction cleaning. With extensive experience in the sector."
+          year={2023}
+          nationality="Brazil"
+        />
         <div className="m-5">
           <Image
             src="https://drive.google.com/uc?export=view&id=1t5Mi5DMHaigeuFZuYxMFn83PFeufNyMC"
-            alt="Real Limpeza 4"
+            alt="Real Limpeza Banner"
             width="940"
             height="838"
           />
         </div>
       </div>
-      <div className="min-w-[338.55px]">
-        <div className="m-5 flex flex-wrap items-center justify-center gap-5">
+      <div className="min-w-[338.55px] bg-white">
+        <div className="flex flex-wrap items-center justify-center gap-5 p-5">
           <Image
             className="w-[116rem]"
             src="https://drive.google.com/uc?export=view&id=1a9l6kGZv3MfjMmqo0DtRIPMO9t6J9kG5"
