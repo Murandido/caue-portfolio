@@ -1,4 +1,4 @@
-import Hero from "@/components/Hero";
+import HeroIndex from "@/components/HeroIndex";
 import ProjectLink from "@/components/ProjectLink";
 import { Metadata } from "next";
 
@@ -9,7 +9,7 @@ export const metadata: Metadata = {
 export default function Home() {
   return (
     <>
-      <Hero />
+      <HeroIndex />
       <section className="min-w-[338.55px]">
         <div className="m-5 flex flex-wrap items-center justify-center gap-5">
           <ProjectLink
@@ -24,7 +24,7 @@ export default function Home() {
             year={2023}
             imgUrl="https://drive.google.com/uc?export=view&id=1fDdpumcYfEDfPh3uH-lbMTORJI8DumJE"
             imgAlt="Devine Banner"
-            linkToPage="#"
+            linkToPage="works/devine/"
           />
           <ProjectLink
             name="Xchango"
