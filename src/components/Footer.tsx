@@ -1,6 +1,7 @@
 import Image from "next/image";
 import instagramLogoSVG from "@/assets/instagramLogo.svg";
 import behanceLogoSVG from "@/assets/behanceLogo.svg";
+import Link from "next/link";
 
 export default function Footer({ page }: { page: "home" | "budget" }) {
   return (
@@ -9,9 +10,9 @@ export default function Footer({ page }: { page: "home" | "budget" }) {
         {page === "home" ? (
           <div className="text-[2.5rem] max-sm:text-lg">
             Have a project{" "}
-            <a className="text-primary-300 hover:underline" href="#">
+            <Link className="text-primary-300 hover:underline" href="/budget">
               contact
-            </a>
+            </Link>
           </div>
         ) : (
           <div className="text-[2.5rem] max-sm:text-lg">
