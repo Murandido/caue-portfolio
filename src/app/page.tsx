@@ -15,28 +15,28 @@ export default function Home() {
           <ProjectLink
             name="Real Limpeza"
             year={2023}
-            imgUrl="https://drive.google.com/uc?export=view&id=1t5Mi5DMHaigeuFZuYxMFn83PFeufNyMC"
+            imgUrl="https://i.imgur.com/1NWEqMj.png"
             imgAlt="Real Limpeza Banner"
             linkToPage="works/reallimpeza/"
           />
           <ProjectLink
             name="Devine"
             year={2023}
-            imgUrl="https://drive.google.com/uc?export=view&id=1fDdpumcYfEDfPh3uH-lbMTORJI8DumJE"
+            imgUrl="https://i.imgur.com/P7ufgd2.png"
             imgAlt="Devine Banner"
             linkToPage="works/devine/"
           />
           <ProjectLink
             name="Xchango"
             year={2023}
-            imgUrl="https://drive.google.com/uc?export=view&id=1KSerdNu0BprG1w1XFAAI-dpcjwgAkiqq"
+            imgUrl="https://i.imgur.com/6Ketoe6.png"
             imgAlt="Xchango Banner"
             linkToPage="#"
           />
           <ProjectLink
             name="Cauehenrique"
             year={2023}
-            imgUrl="https://drive.google.com/uc?export=view&id=1AleIZxRcjOhmpYK_NYps6sb3ksOCLSGD"
+            imgUrl="https://i.imgur.com/16UtRjf.png"
             imgAlt="Cauehenrique Banner"
             linkToPage="#"
           />
