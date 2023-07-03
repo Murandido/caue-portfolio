@@ -24,9 +24,9 @@ export default function Header() {
           <a className="hover:underline" href="#">
             About
           </a>
-          <a className="hover:underline" href="#">
+          <Link className="hover:underline" href="/budget">
             Budget
-          </a>
+          </Link>
         </div>
       </div>
     </header>
