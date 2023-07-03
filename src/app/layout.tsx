@@ -3,7 +3,6 @@ import "../styles/globals.css";
 import "../styles/ProjectLink.css";
 import { Roboto_Slab as Roboto, Righteous } from "next/font/google";
 import Header from "@/components/Header";
-import Footer from "@/components/Footer";
 
 const robotoSlab = Roboto({
   subsets: ["latin"],
@@ -24,7 +23,6 @@ export default function RootLayout({ children }: { children: ReactNode }) {
       >
         <Header />
         {children}
-        <Footer />
       </body>
     </html>
   );
