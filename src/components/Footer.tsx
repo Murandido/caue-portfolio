@@ -2,20 +2,27 @@ import Image from "next/image";
 import instagramLogoSVG from "@/assets/instagramLogo.svg";
 import behanceLogoSVG from "@/assets/behanceLogo.svg";
 
-export default function Footer() {
+export default function Footer({ page }: { page: "home" | "budget" }) {
   return (
     <footer className="flex min-w-[338.55px] justify-center">
       <div className="flex flex-col justify-center gap-6 p-16 max-sm:gap-3 max-sm:p-8">
-        <div className="text-[2.5rem] max-sm:text-lg">
-          Have a project?{" "}
-          <a className="text-primary-300 hover:underline" href="#">
-            contact
-          </a>
-        </div>
+        {page === "home" ? (
+          <div className="text-[2.5rem] max-sm:text-lg">
+            Have a project{" "}
+            <a className="text-primary-300 hover:underline" href="#">
+              contact
+            </a>
+          </div>
+        ) : (
+          <div className="text-[2.5rem] max-sm:text-lg">
+            Do you want to follow our job?
+          </div>
+        )}
+
         <div className="flex items-center justify-center text-base">
           <div className="h-[1px] w-full bg-black-300"></div>
           <div className="absolute bg-secondary-300 p-1 max-sm:p-[0.3rem] max-sm:text-[0.5rem] max-sm:leading-3">
-            and follow us
+            {page === "home" ? "and follow us" : "follow us"}
           </div>
         </div>
         <div className="flex justify-center gap-4">
