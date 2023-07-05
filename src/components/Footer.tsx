@@ -4,8 +4,10 @@ import behanceLogoSVG from "@/assets/behanceLogo.svg";
 import Link from "next/link";
 
 export default function Footer({ page }: { page: "home" | "budget" }) {
+  const budgetStyle = page === "budget" && "border-t border-primary-300";
+
   return (
-    <footer className="flex min-w-[338.55px] justify-center">
+    <footer className={`flex min-w-[338.55px] justify-center ${budgetStyle}`}>
       <div className="flex flex-col justify-center gap-6 p-16 max-sm:gap-3 max-sm:p-8">
         {page === "home" ? (
           <div className="text-[2.5rem] max-sm:text-lg">
