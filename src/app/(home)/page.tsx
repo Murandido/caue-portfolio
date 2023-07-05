@@ -17,21 +17,21 @@ export default function Home() {
             year={2023}
             imgUrl="https://i.imgur.com/1NWEqMj.png"
             imgAlt="Real Limpeza Banner"
-            linkToPage="works/reallimpeza/"
+            linkToPage="/works/reallimpeza/"
           />
           <ProjectLink
             name="Devine"
             year={2023}
             imgUrl="https://i.imgur.com/P7ufgd2.png"
             imgAlt="Devine Banner"
-            linkToPage="works/devine/"
+            linkToPage="/works/devine/"
           />
           <ProjectLink
             name="Xchango"
             year={2023}
             imgUrl="https://i.imgur.com/6Ketoe6.png"
             imgAlt="Xchango Banner"
-            linkToPage="#"
+            linkToPage="/works/xchango/"
           />
           <ProjectLink
             name="Cauehenrique"
