@@ -2,7 +2,6 @@ import { ReactNode } from "react";
 import "../styles/globals.css";
 import "../styles/ProjectLink.css";
 import { Roboto_Slab as Roboto, Righteous } from "next/font/google";
-import Header from "@/components/Header";
 
 const robotoSlab = Roboto({
   subsets: ["latin"],
@@ -21,7 +20,6 @@ export default function RootLayout({ children }: { children: ReactNode }) {
       <body
         className={`${robotoSlab.variable} ${righteous.variable} scroll-smooth bg-secondary-300 font-righteous text-black-300 selection:bg-primary-300 selection:text-secondary-200`}
       >
-        <Header />
         {children}
       </body>
     </html>
