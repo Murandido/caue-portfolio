@@ -38,7 +38,7 @@ export default function Home() {
             year={2023}
             imgUrl="https://i.imgur.com/16UtRjf.png"
             imgAlt="Cauehenrique Banner"
-            linkToPage="#"
+            linkToPage="/works/cauehenrique/"
           />
         </div>
       </section>
