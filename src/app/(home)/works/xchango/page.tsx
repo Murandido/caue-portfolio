@@ -28,71 +28,71 @@ export default function RealLimpezaPage() {
       <div className="min-w-[338.55px] bg-white">
         <div className="flex flex-wrap items-center justify-center gap-5 p-5">
           <Image
-            className="w-[116rem]"
+            className="w-[117.5rem]"
             src="https://i.imgur.com/wOiHco0.png"
             alt="Xchango 1"
-            width="1872"
-            height="1400"
+            width="1880"
+            height="1406"
           />
           <Image
-            className="w-[116rem]"
+            className="w-[117.5rem]"
             src="https://i.imgur.com/LwDkn9y.png"
             alt="Xchango 2"
-            width="1872"
+            width="1880"
             height="1336"
           />
           <div className="flex flex-wrap items-center justify-center gap-5">
             <Image
-              className="w-[57.5rem]"
+              className="w-[58rem]"
               src="https://i.imgur.com/Fg8jMy4.png"
               alt="Xchango 3"
-              width="928"
+              width="924"
               height="696"
             />
             <Image
-              className="w-[57.5rem]"
+              className="w-[58rem]"
               src="https://i.imgur.com/RVQgcSW.png"
               alt="Xchango 4"
-              width="928"
+              width="924"
               height="696"
             />
           </div>
           <Image
-            className="w-[116rem]"
+            className="w-[117.5rem]"
             src="https://i.imgur.com/k0MahOv.png"
             alt="Xchango 5"
-            width="1872"
+            width="1880"
             height="1416"
           />
           <div className="flex flex-wrap items-center justify-center gap-5">
             <Image
-              className="w-[57.5rem]"
+              className="w-[58rem]"
               src="https://i.imgur.com/MvQTD1W.png"
               alt="Xchango 6"
-              width="928"
+              width="924"
               height="696"
             />
             <Image
-              className="w-[57.5rem]"
+              className="w-[58rem]"
               src="https://i.imgur.com/UvUdPIK.png"
               alt="Xchango 7"
-              width="928"
+              width="924"
               height="696"
             />
           </div>
           <Image
-            className="w-[116rem]"
+            className="w-[117.rem]"
             src="https://i.imgur.com/yZlB0dV.png"
             alt="Xchango 8"
-            width="1872"
+            width="1880"
             height="1400"
           />
           <div className="flex flex-wrap items-center justify-center gap-5">
             <Image
-              className="w-[69.5rem]"
+              className="w-[70rem]"
               src="https://i.imgur.com/oe16E3u.png"
               alt="Xchango 9"
-              width="1120"
+              width="1112"
               height="744"
             />
             <Image
@@ -104,38 +104,38 @@ export default function RealLimpezaPage() {
             />
           </div>
           <Image
-            className="w-[116rem]"
+            className="w-[117.5rem]"
             src="https://i.imgur.com/P7aS1A0.png"
             alt="Xchango 11"
-            width="1872"
+            width="1880"
             height="1400"
           />
           <Image
-            className="w-[116rem]"
+            className="w-[117.5rem]"
             src="https://i.imgur.com/JNgChP2.png"
             alt="Xchango 12"
-            width="1872"
+            width="1880"
             height="1400"
           />
           <Image
-            className="w-[116rem]"
+            className="w-[117.5rem]"
             src="https://i.imgur.com/Ypfj1hk.png"
             alt="Xchango 13"
-            width="1872"
+            width="1880"
             height="1400"
           />
           <Image
-            className="w-[116rem]"
+            className="w-[117.5rem]"
             src="https://i.imgur.com/rhKbcof.png"
             alt="Xchango 14"
-            width="1872"
+            width="1880"
             height="1400"
           />
           <Image
-            className="w-[116rem]"
+            className="w-[117.5rem]"
             src="https://i.imgur.com/1Mmy6H1.png"
             alt="Xchango 15"
-            width="1872"
+            width="1880"
             height="1400"
           />
         </div>
