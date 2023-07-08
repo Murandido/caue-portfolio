@@ -28,214 +28,131 @@ export default function RealLimpezaPage() {
       <div className="min-w-[338.55px] bg-white">
         <div className="flex flex-wrap items-center justify-center gap-5 p-5">
           <Image
-            className="w-[116rem]"
+            className="w-[117.5rem]"
             src="https://i.imgur.com/KfwsSGG.png"
             alt="Devine 1"
             width="1880"
-            height="1411"
+            height="1408"
           />
           <div className="flex flex-wrap items-center justify-center gap-5">
             <Image
-              className="w-[57.5rem]"
+              className="w-[58rem]"
               src="https://i.imgur.com/i16u24R.png"
               alt="Devine 2"
-              width="930"
-              height="695"
+              width="924"
+              height="696"
             />
             <Image
-              className="w-[57.5rem]"
+              className="w-[58rem]"
               src="https://i.imgur.com/AmAhmym.png"
               alt="Devine 3"
-              width="930"
-              height="695"
+              width="924"
+              height="696"
             />
           </div>
           <Image
-            className="w-[116rem]"
+            className="w-[117.5rem]"
             src="https://i.imgur.com/XXM5dC0.png"
             alt="Devine 4"
-            width="1879"
-            height="1335"
+            width="1880"
+            height="1336"
           />
           <div className="flex flex-wrap items-center justify-center gap-5">
             <Image
-              className="w-[57.5rem]"
+              className="w-[58rem]"
               src="https://i.imgur.com/VYamHjm.png"
               alt="Devine 5"
-              width="928"
+              width="924"
               height="696"
             />
             <Image
-              className="w-[57.5rem]"
+              className="w-[58rem]"
               src="https://i.imgur.com/qCzilHN.png"
               alt="Devine 6"
-              width="930"
+              width="924"
               height="696"
             />
           </div>
           <Image
-            className="w-[116rem]"
+            className="w-[117.5rem]"
             src="https://i.imgur.com/E8I2kQ7.png"
             alt="Devine 7"
             width="1880"
-            height="1337"
+            height="1336"
           />
-          <div className="flex flex-wrap items-center justify-center gap-5">
-            <Image
-              className="w-[37.5rem]"
-              src="https://i.imgur.com/l9DlA0g.png"
-              alt="Devine 8"
-              width="613"
-              height="772"
-            />
-            <Image
-              className="w-[37.5rem]"
-              src="https://i.imgur.com/OYlmkqI.png"
-              alt="Devine 9"
-              width="614"
-              height="772"
-            />
-            <Image
-              className="w-[37.5rem]"
-              src="https://i.imgur.com/4Eiwi5a.png"
-              alt="Devine 10"
-              width="613"
-              height="772"
-            />
-          </div>
           <Image
-            className="w-[116rem]"
+            className="w-[117.5rem]"
             src="https://i.imgur.com/B4ovbDl.png"
             alt="Devine 11"
             width="1880"
-            height="1567"
-          />
-          <Image
-            className="w-[116rem]"
-            src="https://i.imgur.com/auTvQnE.png"
-            alt="Devine 12"
-            width="1880"
-            height="1252"
+            height="1568"
           />
           <div className="flex flex-wrap items-center justify-center gap-5">
             <Image
-              className="w-[37.5rem]"
+              className="w-[38rem]"
               src="https://i.imgur.com/7JwbVaw.png"
               alt="Devine 13"
-              width="614"
-              height="861"
+              width="608"
+              height="864"
             />
             <Image
-              className="w-[37.5rem]"
+              className="w-[38rem]"
               src="https://i.imgur.com/kreehX9.png"
               alt="Devine 14"
-              width="613"
-              height="861"
+              width="608"
+              height="864"
             />
             <Image
-              className="w-[37.5rem]"
+              className="w-[38rem]"
               src="https://i.imgur.com/jwYipWM.png"
               alt="Devine 15"
-              width="613"
-              height="861"
+              width="608"
+              height="864"
             />
           </div>
           <Image
-            className="w-[116rem]"
+            className="w-[117.5rem]"
             src="https://i.imgur.com/jufV27M.png"
             alt="Devine 16"
             width="1880"
-            height="1411"
+            height="1408"
           />
-          <div className="flex flex-wrap items-center justify-center gap-5">
-            <Image
-              className="w-[57.5rem]"
-              src="https://i.imgur.com/z7kJ8cR.png"
-              alt="Devine 17"
-              width="930"
-              height="694"
-            />
-            <Image
-              className="w-[57.5rem]"
-              src="https://i.imgur.com/9UIcfg6.png"
-              alt="Devine 18"
-              width="930"
-              height="694"
-            />
-            <Image
-              className="w-[57.5rem]"
-              src="https://i.imgur.com/fmc0eq1.png"
-              alt="Devine 19"
-              width="929"
-              height="694"
-            />
-            <Image
-              className="w-[57.5rem]"
-              src="https://i.imgur.com/RZjLf8O.png"
-              alt="Devine 20"
-              width="929"
-              height="694"
-            />
-          </div>
-          <div className="flex flex-wrap items-center justify-center gap-5">
-            <Image
-              className="w-[37.5rem]"
-              src="https://i.imgur.com/M7vjMyE.png"
-              alt="Devine 21"
-              width="613"
-              height="774"
-            />
-            <Image
-              className="w-[37.5rem]"
-              src="https://i.imgur.com/KCpsxp2.png"
-              alt="Devine 22"
-              width="615"
-              height="774"
-            />
-            <Image
-              className="w-[37.5rem]"
-              src="https://i.imgur.com/uH88ZRD.png"
-              alt="Devine 23"
-              width="613"
-              height="774"
-            />
-          </div>
           <Image
-            className="w-[116rem]"
+            className="w-[117.5rem]"
             src="https://i.imgur.com/Jn9V7nQ.png"
             alt="Devine 24"
             width="1880"
-            height="1411"
+            height="1408"
           />
           <Image
-            className="w-[116rem]"
+            className="w-[117.5rem]"
             src="https://i.imgur.com/Jzj8oXi.png"
             alt="Devine 25"
             width="1880"
-            height="1252"
+            height="1080"
           />
           <div className="flex flex-wrap items-center justify-center gap-5">
             <Image
-              className="w-[57.5rem]"
+              className="w-[58rem]"
               src="https://i.imgur.com/vc3VbMK.png"
               alt="Devine 26"
-              width="930"
-              height="700"
+              width="924"
+              height="696"
             />
             <Image
-              className="w-[57.5rem]"
+              className="w-[58rem]"
               src="https://i.imgur.com/noB6QJc.png"
               alt="Devine 27"
-              width="931"
-              height="700"
+              width="924"
+              height="696"
             />
           </div>
           <Image
-            className="w-[116rem]"
+            className="w-[117.5rem]"
             src="https://i.imgur.com/c5oHPrA.png"
             alt="Devine 28"
             width="1880"
-            height="1406"
+            height="1400"
           />
         </div>
       </div>
