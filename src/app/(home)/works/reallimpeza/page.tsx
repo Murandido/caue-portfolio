@@ -28,140 +28,140 @@ export default function RealLimpezaPage() {
       <div className="min-w-[338.55px] bg-white">
         <div className="flex flex-wrap items-center justify-center gap-5 p-5">
           <Image
-            className="w-[116rem]"
+            className="w-[117.5rem]"
             src="https://i.imgur.com/J72tmGQ.png"
             alt="Real Limpeza 1"
             width="1880"
-            height="966"
+            height="968"
           />
           <Image
-            className="w-[116rem]"
+            className="w-[117.5rem]"
             src="https://i.imgur.com/c2a5Fc1.png"
             alt="Real Limpeza 2"
             width="1880"
             height="1224"
           />
           <Image
-            className="w-[116rem]"
+            className="w-[117.5rem]"
             src="https://i.imgur.com/vBIsy9o.png"
             alt="Real Limpeza 3"
             width="1880"
-            height="1266"
+            height="1264"
           />
           <div className="flex flex-wrap items-center justify-center gap-5">
             <Image
-              className="w-[57.5rem]"
+              className="w-[58rem]"
               src="https://i.imgur.com/1NWEqMj.png"
               alt="Real Limpeza 4"
-              width="930"
-              height="800"
+              width="924"
+              height="792"
             />
             <Image
-              className="w-[57.5rem]"
+              className="w-[58rem]"
               src="https://i.imgur.com/eBr8BZQ.png"
               alt="Real Limpeza 5"
-              width="930"
-              height="800"
+              width="924"
+              height="792"
             />
           </div>
           <div className="flex flex-wrap items-center justify-center gap-5">
             <Image
-              className="w-[37.5rem]"
+              className="w-[38rem]"
               src="https://i.imgur.com/U3sdh9P.png"
               alt="Real Limpeza 6"
-              width="607"
-              height="462"
+              width="608"
+              height="464"
             />
             <Image
-              className="w-[38.5rem]"
+              className="w-[38rem]"
               src="https://i.imgur.com/nJORCcc.png"
               alt="Real Limpeza 7"
-              width="625"
-              height="462"
+              width="608"
+              height="464"
             />
             <Image
-              className="w-[37.5rem]"
+              className="w-[38rem]"
               src="https://i.imgur.com/2QBkVIX.png"
               alt="Real Limpeza 8"
-              width="607"
-              height="462"
+              width="608"
+              height="464"
             />
           </div>
           <div className="flex flex-wrap items-center justify-center gap-5">
             <Image
-              className="w-[57.5rem]"
+              className="w-[58rem]"
               src="https://i.imgur.com/Y0Co0tt.png"
               alt="Real Limpeza 9"
-              width="930"
-              height="695"
+              width="924"
+              height="696"
             />
             <Image
-              className="w-[57.5rem]"
+              className="w-[58rem]"
               src="https://i.imgur.com/L2t7OYa.png"
               alt="Real Limpeza 10"
-              width="930"
-              height="695"
+              width="924"
+              height="696"
             />
           </div>
           <Image
-            className="w-[116rem]"
-            src="https://i.imgur.com/19vhD5V.png"
+            className="w-[117.5rem]"
+            src="https://i.imgur.com/DoWN4nf.png"
             alt="Real Limpeza 11"
             width="1880"
-            height="1101"
+            height="1104"
           />
           <div className="flex flex-wrap items-center justify-center gap-5">
             <Image
-              className="w-[57.5rem]"
-              src="https://i.imgur.com/z5AbJZQ.png"
+              className="w-[58rem]"
+              src="https://i.imgur.com/avlvbnX.png"
               alt="Real Limpeza 12"
-              width="930"
+              width="924"
               height="976"
             />
             <Image
-              className="w-[57.5rem]"
+              className="w-[58rem]"
               src="https://i.imgur.com/6wgzsfk.png"
               alt="Real Limpeza 13"
-              width="930"
+              width="924"
               height="976"
             />
           </div>
           <Image
-            className="w-[116rem]"
+            className="w-[117.5rem]"
             src="https://i.imgur.com/WlcQrHp.png"
             alt="Real Limpeza 14"
             width="1880"
-            height="949"
+            height="952"
           />
           <div className="flex flex-wrap items-center justify-center gap-5">
             <Image
-              className="w-[51.5rem]"
+              className="h-[64rem] w-[52rem]"
               src="https://i.imgur.com/k3V35Wv.png"
               alt="Real Limpeza 15"
-              width="837"
-              height="1018"
+              width="828"
+              height="1024"
             />
             <Image
-              className="w-[63.5rem]"
+              className="h-[64rem] w-[64rem]"
               src="https://i.imgur.com/TmchTxU.png"
               alt="Real Limpeza 16"
-              width="1023"
-              height="1018"
+              width="1020"
+              height="1024"
             />
           </div>
           <Image
-            className="w-[116rem]"
+            className="w-[117.5rem]"
             src="https://i.imgur.com/YFiQjlF.png"
             alt="Real Limpeza 17"
             width="1880"
-            height="1228"
+            height="1224"
           />
           <Image
-            className="w-[116rem]"
+            className="w-[117.5rem]"
             src="https://i.imgur.com/zofGZco.png"
             alt="Real Limpeza 18"
             width="1880"
-            height="1175"
+            height="1224"
           />
         </div>
       </div>
