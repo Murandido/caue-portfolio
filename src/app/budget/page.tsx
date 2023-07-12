@@ -6,32 +6,25 @@ export const metadata: Metadata = {
 
 export default function Budget() {
   return (
-    <main>
-      <section className="mt-32 flex min-w-[338.55px] flex-wrap-reverse justify-center gap-40 max-sm:mt-14">
-        <div className="h-[70rem] w-[46rem] max-md:w-[40rem] max-sm:h-[80rem] max-xs:h-[85rem]">
-          <iframe
-            className="h-full w-full"
-            src="https://docs.google.com/forms/d/e/1FAIpQLSfb1USB9bZwWLdquPi1_Hm4zi507Q8bLY00WNd-rxjxDiL6tg/viewform?embedded=true"
-          >
-            Loading…
-          </iframe>
-        </div>
-        <div className="mx-10 flex w-[40rem] flex-col gap-14 max-sm:gap-6 max-xs:mx-5">
-          <h1 className="text-6xl max-sm:text-3xl">Budget!</h1>
-          <div className="flex flex-col gap-12 font-robotoSlab text-2xl max-sm:gap-4 max-sm:text-sm">
-            <p>Are you in need of a comprehensive visual identity quote?</p>
-            <p>
-              Look no further! Simply fill out our user-friendly form, providing
-              us with the necessary details, and get ready to receive a
-              personalized email that not only includes all the information you
-              need but also extends a warm invitation for a video call.
-            </p>
-            <p>
-              We believe that a video call will allow us to delve into your
-              vision, understand your specific needs, and collaborate more
-              effectively to create a visual identity that truly represents your
-              brand.
-            </p>
+    <main className="flex min-w-[338.55px] flex-grow">
+      <section className="mx-40 flex items-center font-robotoSlab text-2xl leading-normal max-lg:mx-10 max-sm:text-sm max-xs:mx-5">
+        <div className="flex max-w-[40rem] flex-col gap-6 max-sm:gap-2">
+          <div className="flex">
+            <h1 className="font-righteous text-[4rem] max-sm:text-4xl">
+              Contact-us
+            </h1>
+          </div>
+          <p>
+            Are you in need of a comprehensive visual identity quote? Send an
+            e-mail to:
+          </p>
+          <div className="flex">
+            <a
+              className="text-primary-300 hover:underline"
+              href="mailto:contact@cauehenrique.com"
+            >
+              contact@cauehenrique.com
+            </a>
           </div>
         </div>
       </section>
