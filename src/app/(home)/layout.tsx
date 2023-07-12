@@ -7,7 +7,7 @@ export default function HomeLayout({ children }: { children: ReactNode }) {
     <>
       <Header />
       {children}
-      <Footer page="home" />
+      <Footer />
     </>
   );
 }
