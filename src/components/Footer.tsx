@@ -11,7 +11,7 @@ export default function Footer({ page }: { page: "home" | "budget" }) {
       <div className="flex flex-col justify-center gap-6 p-16 max-sm:gap-3 max-sm:p-8">
         {page === "home" ? (
           <div className="text-[2.5rem] max-sm:text-lg">
-            Have a project{" "}
+            Have a project?{" "}
             <Link className="text-primary-300 hover:underline" href="/budget">
               contact
             </Link>
