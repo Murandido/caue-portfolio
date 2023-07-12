@@ -135,14 +135,14 @@ export default function RealLimpezaPage() {
           />
           <div className="flex flex-wrap items-center justify-center gap-5">
             <Image
-              className="h-[64rem] w-[52rem]"
+              className="w-[52rem]"
               src="https://i.imgur.com/k3V35Wv.png"
               alt="Real Limpeza 15"
               width="828"
               height="1024"
             />
             <Image
-              className="h-[64rem] w-[64rem]"
+              className="w-[64rem]"
               src="https://i.imgur.com/TmchTxU.png"
               alt="Real Limpeza 16"
               width="1020"
