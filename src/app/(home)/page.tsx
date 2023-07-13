@@ -11,7 +11,7 @@ export default function Home() {
     <>
       <HeroIndex />
       <section className="min-w-[338.55px]">
-        <div className="m-5 flex flex-wrap items-center justify-center gap-5">
+        <div className="m-5 mb-0 flex flex-wrap items-center justify-center gap-5">
           <ProjectLink
             name="Real Limpeza"
             year={2023}
