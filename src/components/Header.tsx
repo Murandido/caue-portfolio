@@ -21,9 +21,9 @@ export default function Header() {
 
         {/* links */}
         <div className="flex items-center gap-12 text-2xl text-primary-300 max-sm:text-xs">
-          <a className="hover:underline" href="#">
+          <Link className="hover:underline" href="/about">
             About
-          </a>
+          </Link>
           <Link className="hover:underline" href="/budget">
             Budget
           </Link>
