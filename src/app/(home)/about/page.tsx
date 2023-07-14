@@ -1,5 +1,6 @@
 import AboutCaue from "@/components/AboutCaue";
 import Hero from "@/components/Hero";
+import Info from "@/components/Info";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -16,6 +17,7 @@ export default function AboutPage() {
         the market scenario.
       </Hero>
       <AboutCaue />
+      <Info />
     </main>
   );
 }
