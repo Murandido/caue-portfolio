@@ -35,7 +35,7 @@ export default function Home() {
           />
           <ProjectLink
             name="Cauehenrique"
-            year={2023}
+            year={2022}
             imgUrl="https://i.imgur.com/16UtRjf.png"
             imgAlt="Cauehenrique Banner"
             linkToPage="/works/cauehenrique/"

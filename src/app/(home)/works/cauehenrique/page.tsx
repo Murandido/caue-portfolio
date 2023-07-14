@@ -13,7 +13,7 @@ export default function RealLimpezaPage() {
         <Hero
           title="cauehenrique"
           description="Cauê Henrique is a brand designer, user interface and experience designer. This brand identity was made for his studio, with the idea of be simple with patterns that doesn't attract too much attention but serves its purpose of being significant and memorable."
-          year={2023}
+          year={2022}
           nationality="International"
         />
         <div className="m-5">
