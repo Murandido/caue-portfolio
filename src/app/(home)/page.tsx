@@ -1,4 +1,4 @@
-import HeroIndex from "@/components/HeroIndex";
+import Hero from "@/components/Hero";
 import ProjectLink from "@/components/ProjectLink";
 import { Metadata } from "next";
 
@@ -9,7 +9,11 @@ export const metadata: Metadata = {
 export default function Home() {
   return (
     <>
-      <HeroIndex />
+      <Hero>
+        <span className="text-primary-300">Your brand is unique</span> and
+        deserves a visual identity that represents it in an authentic and{" "}
+        <span className="text-primary-300">unforgettable</span> way.
+      </Hero>
       <section className="min-w-[338.55px]">
         <div className="m-5 mb-0 flex flex-wrap items-center justify-center gap-5">
           <ProjectLink
