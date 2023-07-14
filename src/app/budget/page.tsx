@@ -21,7 +21,9 @@ export default function Budget() {
           <div className="flex">
             <a
               className="text-primary-300 hover:underline"
+              target="_blank"
               href="mailto:contact@cauehenrique.com"
+              rel="noreferrer"
             >
               contact@cauehenrique.com
             </a>
