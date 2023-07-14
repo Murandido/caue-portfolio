@@ -9,7 +9,7 @@ export const metadata: Metadata = {
 
 export default function AboutPage() {
   return (
-    <main>
+    <main className="min-w-[338.55px]">
       <Hero>
         <span className="text-primary-300">It&apos;s about</span> creating
         creative solutions for companies that need to{" "}

@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function AboutCaue() {
   return (
-    <div className="m-5 flex justify-center gap-5">
+    <div className="m-5 flex flex-wrap justify-center gap-5">
       <div>
         <Image
           className="w-[58rem]"
@@ -12,8 +12,8 @@ export default function AboutCaue() {
           alt="Personal Image of Cauê Henrique"
         />
       </div>
-      <div className="flex w-[58rem] items-center justify-center bg-white">
-        <div className="m-5 flex w-[28rem] flex-col gap-10 font-robotoSlab text-xl">
+      <div className="flex max-w-[58rem] flex-grow items-center justify-center bg-white">
+        <div className="mx-5 my-40 flex max-w-[28rem] flex-col gap-10 font-robotoSlab text-xl max-sm:my-20 max-sm:gap-5 max-sm:text-xs">
           <p className="font-righteous">Who is Cauê Henrique?</p>
           <p>
             Hello, I am a brand designer, user interface, and experience
