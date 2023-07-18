@@ -9,7 +9,7 @@ export default function Footer() {
       <div className="flex flex-col justify-center gap-6 p-16 max-sm:gap-3 max-sm:p-8">
         <div className="text-[2.5rem] max-sm:text-lg">
           Have a project?{" "}
-          <Link className="text-primary-300 hover:underline" href="/budget">
+          <Link className="text-primary-300 hover:underline" href="/en/budget/">
             contact
           </Link>
         </div>

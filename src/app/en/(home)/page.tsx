@@ -1,5 +1,5 @@
-import Hero from "@/components/Hero";
-import ProjectLink from "@/components/ProjectLink";
+import Hero from "@/components/en/Hero";
+import ProjectLink from "@/components/en/ProjectLink";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -21,28 +21,28 @@ export default function Home() {
             year={2023}
             imgUrl="https://i.imgur.com/1NWEqMj.png"
             imgAlt="Real Limpeza Banner"
-            linkToPage="/works/reallimpeza/"
+            linkToPage="/en/works/reallimpeza/"
           />
           <ProjectLink
             name="Devine"
             year={2023}
             imgUrl="https://i.imgur.com/P7ufgd2.png"
             imgAlt="Devine Banner"
-            linkToPage="/works/devine/"
+            linkToPage="/en/works/devine/"
           />
           <ProjectLink
             name="Xchango"
             year={2023}
             imgUrl="https://i.imgur.com/6Ketoe6.png"
             imgAlt="Xchango Banner"
-            linkToPage="/works/xchango/"
+            linkToPage="/en/works/xchango/"
           />
           <ProjectLink
             name="Cauehenrique"
             year={2022}
             imgUrl="https://i.imgur.com/16UtRjf.png"
             imgAlt="Cauehenrique Banner"
-            linkToPage="/works/cauehenrique/"
+            linkToPage="/en/works/cauehenrique/"
           />
         </div>
       </section>

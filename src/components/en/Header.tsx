@@ -8,7 +8,7 @@ export default function Header() {
       {/* container */}
       <div className="mx-40 flex w-full justify-between gap-8 max-lg:mx-10 max-xs:mx-5">
         {/* logo and name */}
-        <Link className="flex items-center gap-2 max-sm:gap-1" href="/">
+        <Link className="flex items-center gap-2 max-sm:gap-1" href="/en/">
           <Image
             className="h-12 w-12 max-sm:h-5 max-sm:w-5"
             src={caueLogoSVG}
@@ -21,10 +21,10 @@ export default function Header() {
 
         {/* links */}
         <div className="flex items-center gap-12 text-2xl text-primary-300 max-sm:text-xs">
-          <Link className="hover:underline" href="/about">
+          <Link className="hover:underline" href="/en/about/">
             About
           </Link>
-          <Link className="hover:underline" href="/budget">
+          <Link className="hover:underline" href="/en/budget/">
             Budget
           </Link>
         </div>

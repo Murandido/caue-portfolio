@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Hero from "@/components/HeroWorks";
+import Hero from "@/components/en/HeroWorks";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {

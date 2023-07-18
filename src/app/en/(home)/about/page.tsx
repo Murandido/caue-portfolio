@@ -1,6 +1,6 @@
-import AboutCaue from "@/components/AboutCaue";
-import Hero from "@/components/Hero";
-import Info from "@/components/Info";
+import AboutCaue from "@/components/en/AboutCaue";
+import Hero from "@/components/en/Hero";
+import Info from "@/components/en/Info";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
