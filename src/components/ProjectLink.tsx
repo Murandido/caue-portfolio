@@ -17,7 +17,7 @@ export default function ProjectLink({
   linkToPage,
 }: props) {
   return (
-    <Link className="relative w-[58rem]" href={linkToPage}>
+    <Link className="slideUp relative w-[58rem]" href={linkToPage}>
       <Image
         className="block w-full"
         src={imgUrl}
