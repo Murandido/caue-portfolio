@@ -1,8 +1,0 @@
-.animation > * {
-  transform: translateY(20px);
-  transition: transform 150ms;
-}
-
-.animation:hover > * {
-  transform: translateY(0);
-}

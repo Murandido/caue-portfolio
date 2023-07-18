@@ -3,6 +3,15 @@
   animation-name: slideUp;
 }
 
+.projectLinkAnimation > * {
+  transform: translateY(20px);
+  transition: transform 150ms;
+}
+
+.projectLinkAnimation:hover > * {
+  transform: translateY(0);
+}
+
 @keyframes slideUp {
   0% {
     transform: translateY(5rem);

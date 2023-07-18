@@ -1,7 +1,6 @@
 import { ReactNode } from "react";
 import "../styles/globals.css";
-import "../styles/ProjectLink.css";
-import "../styles/Hero.css";
+import "../styles/animations.css";
 import { Roboto_Slab as Roboto, Righteous } from "next/font/google";
 
 const robotoSlab = Roboto({
