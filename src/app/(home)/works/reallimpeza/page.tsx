@@ -8,7 +8,7 @@ export const metadata: Metadata = {
 
 export default function RealLimpezaPage() {
   return (
-    <main>
+    <main className="slideUp">
       <div className="flex min-w-[338.55px] flex-wrap-reverse items-center justify-center gap-5">
         <Hero
           title="Real Limpeza"
