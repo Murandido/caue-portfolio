@@ -1,5 +1,5 @@
-import Hero from "@/components/en/Hero";
-import ProjectLink from "@/components/en/ProjectLink";
+import Hero from "@/components/Hero";
+import ProjectLink from "@/components/ProjectLink";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {

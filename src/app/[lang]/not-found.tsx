@@ -1,9 +1,6 @@
-import { Metadata } from "next";
-import Link from "next/link";
+// import Link from "next/link";
 
-export const metadata: Metadata = {
-  title: "Error 404 - Studio cauehenrique",
-};
+import Link from "next/link";
 
 export default function NotFound() {
   return (

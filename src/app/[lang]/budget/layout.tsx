@@ -1,5 +1,5 @@
 import { ReactNode } from "react";
-import Header from "@/components/en/Header";
+import Header from "@/components/Header";
 
 export default function BudgetLayout({ children }: { children: ReactNode }) {
   return (
