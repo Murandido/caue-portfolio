@@ -7,6 +7,12 @@
         "highlight2": "inesquecível.",
         "text2": ""
       }
+    },
+    "Header": {
+      "links": {
+        "about": "Sobre",
+        "budget": "Orçamento"
+      }
     }
   }
 }

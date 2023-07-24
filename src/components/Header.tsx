@@ -2,7 +2,11 @@ import caueLogoSVG from "@/assets/caueLogo.svg";
 import Image from "next/image";
 import Link from "next/link";
 
-export default function Header() {
+export default function Header({
+  dictionary,
+}: {
+  dictionary: { links: { about: string; budget: string } };
+}) {
   return (
     <header className="flex h-28 min-w-max border-b border-primary-300 max-sm:h-12">
       {/* container */}
@@ -22,10 +26,10 @@ export default function Header() {
         {/* links */}
         <div className="flex items-center gap-12 text-2xl text-primary-300 max-sm:text-xs">
           <Link className="hover:underline" href="/en/about/">
-            About
+            {dictionary.links.about}
           </Link>
           <Link className="hover:underline" href="/en/budget/">
-            Budget
+            {dictionary.links.budget}
           </Link>
         </div>
       </div>

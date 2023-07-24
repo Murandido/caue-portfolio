@@ -7,6 +7,12 @@
         "highlight2": "unforgettable ",
         "text2": "way."
       }
+    },
+    "Header": {
+      "links": {
+        "about": "About",
+        "budget": "Budget"
+      }
     }
   }
 }
