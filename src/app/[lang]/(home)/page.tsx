@@ -34,28 +34,28 @@ export default async function Home({
             year={2023}
             imgUrl="https://i.imgur.com/1NWEqMj.png"
             imgAlt="Real Limpeza Banner"
-            linkToPage={`${lang}/works/reallimpeza/`}
+            linkToPage={`${lang}/portfolio/reallimpeza/`}
           />
           <ProjectLink
             name="Devine"
             year={2023}
             imgUrl="https://i.imgur.com/P7ufgd2.png"
             imgAlt="Devine Banner"
-            linkToPage={`${lang}/works/devine/`}
+            linkToPage={`${lang}/portfolio/devine/`}
           />
           <ProjectLink
             name="Xchango"
             year={2023}
             imgUrl="https://i.imgur.com/6Ketoe6.png"
             imgAlt="Xchango Banner"
-            linkToPage={`${lang}/works/xchango/`}
+            linkToPage={`${lang}/portfolio/xchango/`}
           />
           <ProjectLink
             name="Cauehenrique"
             year={2022}
             imgUrl="https://i.imgur.com/16UtRjf.png"
             imgAlt="Cauehenrique Banner"
-            linkToPage={`${lang}/works/cauehenrique/`}
+            linkToPage={`${lang}/portfolio/cauehenrique/`}
           />
         </div>
       </section>
