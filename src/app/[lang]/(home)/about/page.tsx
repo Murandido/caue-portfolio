@@ -29,7 +29,7 @@ export default async function AboutPage({
         {dictionary.components.Hero.about.text2}
       </Hero>
       <AboutCaue dictionary={dictionary.components.AboutCaue} />
-      <Info />
+      <Info dictionary={dictionary.components.Info} />
     </main>
   );
 }

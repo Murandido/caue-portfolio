@@ -32,6 +32,20 @@
       "title": "Who is Cauê Henrique?",
       "p1": "Hello, I am a brand designer, user interface, and experience designer. I work in this studio as a creative director and brand designer. My goal as a professional is to create designs that have a lasting impact and leave a memorable impression. I believe that a company's design should go beyond just a logo; it should be easily recognizable in all aspects, even in situations where the logo cannot be easily viewed, such as billboards.",
       "p2": "With this vision in mind, I am excited to establish a partnership with your company and create an incredible identity that will set you apart in the market."
+    },
+    "Info": {
+      "title": "Design that communicates with the right audience, stands out, and attracts.",
+      "topics": {
+        "1": "We are a design studio specializing in creating strategic visual identities for unique companies, as well as website development. With a passion for art and a deep understanding of the power of design, we are here to help your brand stand out in a competitive market.",
+        "2": "With extensive experience., we combine creativity and strategy to develop memorable visual identities. We believe that every company has a unique story to tell, and our mission is to translate that story into an authentic visual identity.",
+        "3": "Our client-centric approach allows us to understand your needs and business objectives, ensuring that each project is carefully tailored to reflect the personality of your brand. We utilize a combination of strategic colors, carefully selected typography, and intelligent design to create a visual identity that effectively communicates your message.",
+        "4": "At Studio Cauê Henrique, we value long-lasting relationships and work closely with our clients from conception to implementation. Our goal is not only to deliver stunning design but also to provide strategic design solutions that propel your business and set you apart in the market.",
+        "5": {
+          "text1": "Explore our ",
+          "highlight": "portfolio",
+          "text2": " to see some of the projects we have completed this year and be inspired by our unique approach. We are eager to collaborate with you, create your visual identity, and develop a website that leaves a lasting impression."
+        }
+      }
     }
   }
 }

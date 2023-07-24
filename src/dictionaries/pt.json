@@ -32,6 +32,20 @@
       "title": "Quem é Cauê Henrique?",
       "p1": "Olá, sou um designer de marcas, interfaces de usuário e designer de experiência. Trabalho neste estúdio como diretor criativo e designer de marcas. Meu objetivo como profissional é criar designs que tenham um impacto duradouro e deixem uma impressão memorável. Acredito que o design de uma empresa deve ir além de apenas um logotipo; ele deve ser facilmente reconhecível em todos os aspectos, mesmo em situações em que o logotipo não possa ser facilmente visualizado, como outdoors.",
       "p2": "Com essa visão em mente, estou empolgado em estabelecer uma parceria com sua empresa e criar uma identidade incrível que a diferenciará no mercado."
+    },
+    "Info": {
+      "title": "Design que se comunica com o público certo, se destaca e atrai.",
+      "topics": {
+        "1": "Somos um estúdio de design especializado em criar identidades visuais estratégicas para empresas únicas, além do desenvolvimento de websites. Com paixão pela arte e um profundo entendimento do poder do design, estamos aqui para ajudar sua marca a se destacar em um mercado competitivo.",
+        "2": "Com ampla experiência, combinamos criatividade e estratégia para desenvolver identidades visuais memoráveis. Acreditamos que cada empresa tem uma história única para contar, e nossa missão é traduzir essa história em uma identidade visual autêntica.",
+        "3": "Nosso foco centrado no cliente nos permite compreender suas necessidades e objetivos de negócios, garantindo que cada projeto seja cuidadosamente adaptado para refletir a personalidade de sua marca. Utilizamos uma combinação de cores estratégicas, tipografia cuidadosamente selecionada e design inteligente para criar uma identidade visual que comunique efetivamente sua mensagem.",
+        "4": "No Studio Cauê Henrique, valorizamos relacionamentos duradouros e trabalhamos em estreita colaboração com nossos clientes desde a concepção até a implementação. Nosso objetivo é não apenas entregar designs impressionantes, mas também fornecer soluções estratégicas de design que impulsionem o seu negócio e o destaquem no mercado.",
+        "5": {
+          "text1": "Explore nosso ",
+          "highlight": "portifólio",
+          "text2": " para ver alguns dos projetos que concluímos este ano e se inspirar com nossa abordagem única. Estamos ansiosos para colaborar com você, criar sua identidade visual e desenvolver um site que deixe uma impressão duradoura."
+        }
+      }
     }
   }
 }
