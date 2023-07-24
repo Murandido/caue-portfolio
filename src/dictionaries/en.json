@@ -46,10 +46,32 @@
           "text2": " to see some of the projects we have completed this year and be inspired by our unique approach. We are eager to collaborate with you, create your visual identity, and develop a website that leaves a lasting impression."
         }
       }
+    },
+    "HeroWorks": {
+      "year": "Year",
+      "project": "Project"
     }
   },
   "budget": {
     "title": "Contact-us",
     "text": "Are you in need of a comprehensive visual identity quote? Send an e-mail to:"
+  },
+  "portfolio": {
+    "realLimpeza": {
+      "text": "Real Limpeza is a company specialized in residential, commercial and industrial cleaning services, including glass, facade and post-construction cleaning. With extensive experience in the sector.",
+      "country": "Brazil"
+    },
+    "devine": {
+      "text": "",
+      "country": ""
+    },
+    "xchango": {
+      "text": "",
+      "country": ""
+    },
+    "caueHenrique": {
+      "text": "",
+      "country": ""
+    }
   }
 }

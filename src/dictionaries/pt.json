@@ -46,10 +46,32 @@
           "text2": " para ver alguns dos projetos que concluímos este ano e se inspirar com nossa abordagem única. Estamos ansiosos para colaborar com você, criar sua identidade visual e desenvolver um site que deixe uma impressão duradoura."
         }
       }
+    },
+    "HeroWorks": {
+      "year": "Ano",
+      "project": "Projeto"
     }
   },
   "budget": {
     "title": "Entre em contato",
     "text": "Você precisa de um orçamento abrangente para identidade visual? Envie um e-mail para:"
+  },
+  "portfolio": {
+    "realLimpeza": {
+      "text": "A Real Limpeza é uma empresa especializada em serviços de limpeza residencial, comercial e industrial, incluindo limpeza de vidros, fachadas e pós-construção. Com ampla experiência no setor.",
+      "country": "Brasil"
+    },
+    "devine": {
+      "text": "",
+      "country": ""
+    },
+    "xchango": {
+      "text": "",
+      "country": ""
+    },
+    "caueHenrique": {
+      "text": "",
+      "country": ""
+    }
   }
 }

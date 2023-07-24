@@ -1,20 +1,29 @@
 import Image from "next/image";
 import Hero from "@/components/HeroWorks";
 import { Metadata } from "next";
+import { Locale } from "@/i18n-config";
+import { getDictionary } from "@/get-dictionary";
 
 export const metadata: Metadata = {
   title: "Real Limpeza - Studio cauehenrique",
 };
 
-export default function RealLimpezaPage() {
+export default async function RealLimpezaPage({
+  params: { lang },
+}: {
+  params: { lang: Locale };
+}) {
+  const dictionary = await getDictionary(lang);
+
   return (
     <main className="slideUp">
       <div className="flex min-w-[338.55px] flex-wrap-reverse items-center justify-center gap-5">
         <Hero
           title="Real Limpeza"
-          description="Real Limpeza is a company specialized in residential, commercial and industrial cleaning services, including glass, facade and post-construction cleaning. With extensive experience in the sector."
+          description={dictionary.portfolio.realLimpeza.text}
           year={2023}
-          nationality="Brazil"
+          nationality={dictionary.portfolio.realLimpeza.country}
+          dictionary={dictionary.components.HeroWorks}
         />
         <div className="m-5">
           <Image
