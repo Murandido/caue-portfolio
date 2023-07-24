@@ -28,7 +28,7 @@ export default async function AboutPage({
         </span>
         {dictionary.components.Hero.about.text2}
       </Hero>
-      <AboutCaue />
+      <AboutCaue dictionary={dictionary.components.AboutCaue} />
       <Info />
     </main>
   );
