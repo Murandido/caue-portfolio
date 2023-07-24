@@ -1,20 +1,29 @@
 import Image from "next/image";
 import Hero from "@/components/HeroWorks";
 import { Metadata } from "next";
+import { Locale } from "@/i18n-config";
+import { getDictionary } from "@/get-dictionary";
 
 export const metadata: Metadata = {
   title: "Devine - Studio cauehenrique",
 };
 
-export default function RealLimpezaPage() {
+export default async function RealLimpezaPage({
+  params: { lang },
+}: {
+  params: { lang: Locale };
+}) {
+  const dictionary = await getDictionary(lang);
+
   return (
     <main className="slideUp">
       <div className="flex min-w-[338.55px] flex-wrap-reverse items-center justify-center gap-5">
         <Hero
           title="Devine"
-          description="Devine is a company that wants to innovate in the Alfajores (caramel cookie) segment making various flavors different to catch the public's attention, a company like this needs an identity unique, striking and differentiated."
+          description={dictionary.portfolio.devine.text}
           year={2023}
-          nationality="Brazil"
+          nationality={dictionary.portfolio.devine.country}
+          dictionary={dictionary.components.HeroWorks}
         />
         <div className="m-5">
           <Image
