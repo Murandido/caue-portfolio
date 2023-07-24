@@ -12,7 +12,8 @@
       "links": {
         "about": "About",
         "budget": "Budget"
-      }
+      },
+      "lang": "en"
     }
   }
 }

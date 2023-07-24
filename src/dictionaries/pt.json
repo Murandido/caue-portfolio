@@ -12,7 +12,8 @@
       "links": {
         "about": "Sobre",
         "budget": "Orçamento"
-      }
+      },
+      "lang": "pt"
     }
   }
 }
