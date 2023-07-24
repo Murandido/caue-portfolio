@@ -1,1 +1,12 @@
-{}
+{
+  "components": {
+    "Hero": {
+      "index": {
+        "highlight1": "Sua empresa é única ",
+        "text1": "e merece uma identidade visual que a represente de maneira autêntica e ",
+        "highlight2": "inesquecível.",
+        "text2": ""
+      }
+    }
+  }
+}

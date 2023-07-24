@@ -1,18 +1,31 @@
 import Hero from "@/components/Hero";
 import ProjectLink from "@/components/ProjectLink";
+import { getDictionary } from "@/get-dictionary";
+import { Locale } from "@/i18n-config";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Portfolio",
+  title: "Cauê Henrique | Brand Design Studio",
 };
 
-export default function Home() {
+export default async function Home({
+  params: { lang },
+}: {
+  params: { lang: Locale };
+}) {
+  const dictionary = await getDictionary(lang);
+
   return (
     <>
       <Hero>
-        <span className="text-primary-300">Your brand is unique</span> and
-        deserves a visual identity that represents it in an authentic and{" "}
-        <span className="text-primary-300">unforgettable</span> way.
+        <span className="text-primary-300">
+          {dictionary.components.Hero.index.highlight1}
+        </span>
+        {dictionary.components.Hero.index.text1}
+        <span className="text-primary-300">
+          {dictionary.components.Hero.index.highlight2}
+        </span>
+        {dictionary.components.Hero.index.text2}
       </Hero>
       <section className="min-w-[338.55px]">
         <div className="m-5 mb-0 flex flex-wrap items-center justify-center gap-5">

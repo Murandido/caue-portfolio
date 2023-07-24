@@ -1,1 +1,12 @@
-{}
+{
+  "components": {
+    "Hero": {
+      "index": {
+        "highlight1": "Your brand is unique ",
+        "text1": "and deserves a visual identity that represents it in an authentic and ",
+        "highlight2": "unforgettable ",
+        "text2": "way."
+      }
+    }
+  }
+}
