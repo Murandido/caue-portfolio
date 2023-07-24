@@ -21,7 +21,7 @@ export default async function HomeLayout({
     <>
       <Header dictionary={dictionary.components.Header} />
       {children}
-      <Footer />
+      <Footer dictionary={dictionary.components.Footer} />
     </>
   );
 }

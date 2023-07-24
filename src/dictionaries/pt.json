@@ -14,6 +14,12 @@
         "budget": "Orçamento"
       },
       "lang": "pt"
+    },
+    "Footer": {
+      "text1": "Tem um projeto? ",
+      "text2": "e nos acompanhe",
+      "link": "entre em contato",
+      "lang": "pt"
     }
   }
 }

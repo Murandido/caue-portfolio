@@ -14,6 +14,12 @@
         "budget": "Budget"
       },
       "lang": "en"
+    },
+    "Footer": {
+      "text1": "Have a project? ",
+      "text2": "and follow us",
+      "link": "contact",
+      "lang": "en"
     }
   }
 }
