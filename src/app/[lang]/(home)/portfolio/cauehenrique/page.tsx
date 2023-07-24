@@ -1,20 +1,29 @@
 import Image from "next/image";
 import Hero from "@/components/HeroWorks";
 import { Metadata } from "next";
+import { Locale } from "@/i18n-config";
+import { getDictionary } from "@/get-dictionary";
 
 export const metadata: Metadata = {
   title: "cauehenrique - Studio cauehenrique",
 };
 
-export default function RealLimpezaPage() {
+export default async function RealLimpezaPage({
+  params: { lang },
+}: {
+  params: { lang: Locale };
+}) {
+  const dictionary = await getDictionary(lang);
+
   return (
     <main className="slideUp">
       <div className="flex min-w-[338.55px] flex-wrap-reverse items-center justify-center gap-5">
         <Hero
           title="cauehenrique"
-          description="Cauê Henrique is a brand designer, user interface and experience designer. This brand identity was made for his studio, with the idea of be simple with patterns that doesn't attract too much attention but serves its purpose of being significant and memorable."
+          description={dictionary.portfolio.caueHenrique.text}
           year={2022}
-          nationality="International"
+          nationality={dictionary.portfolio.caueHenrique.country}
+          dictionary={dictionary.components.HeroWorks}
         />
         <div className="m-5">
           <Image
