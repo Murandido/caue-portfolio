@@ -1,20 +1,29 @@
 import Image from "next/image";
 import Hero from "@/components/HeroWorks";
 import { Metadata } from "next";
+import { Locale } from "@/i18n-config";
+import { getDictionary } from "@/get-dictionary";
 
 export const metadata: Metadata = {
   title: "Xchango - Studio cauehenrique",
 };
 
-export default function RealLimpezaPage() {
+export default async function RealLimpezaPage({
+  params: { lang },
+}: {
+  params: { lang: Locale };
+}) {
+  const dictionary = await getDictionary(lang);
+
   return (
     <main className="slideUp">
       <div className="flex min-w-[338.55px] flex-wrap-reverse items-center justify-center gap-5">
         <Hero
           title="Xchango"
-          description="Xchango is a multi-currency exchange analysis site, where the site analyzes the exchange rate between two selected currencies and sends an email notifying you of the profit you made on that transaction."
+          description={dictionary.portfolio.xchango.text}
           year={2023}
-          nationality="International"
+          nationality={dictionary.portfolio.xchango.country}
+          dictionary={dictionary.components.HeroWorks}
         />
         <div className="m-5">
           <Image
