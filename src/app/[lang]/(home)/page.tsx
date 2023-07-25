@@ -4,8 +4,14 @@ import { getDictionary } from "@/get-dictionary";
 import { Locale } from "@/i18n-config";
 import { Metadata } from "next";
 
-export const metadata: Metadata = {
-  title: "Cauê Henrique | Brand Design Studio",
+export const generateMetadata = async ({
+  params: { lang },
+}: {
+  params: { lang: Locale };
+}): Promise<Metadata> => {
+  const dictionary = await getDictionary(lang);
+
+  return { title: dictionary.titles.index };
 };
 
 export default async function Home({

@@ -1,11 +1,17 @@
 import Image from "next/image";
 import Hero from "@/components/HeroWorks";
-import { Metadata } from "next";
 import { Locale } from "@/i18n-config";
 import { getDictionary } from "@/get-dictionary";
+import { Metadata } from "next";
 
-export const metadata: Metadata = {
-  title: "Real Limpeza - Studio cauehenrique",
+export const generateMetadata = async ({
+  params: { lang },
+}: {
+  params: { lang: Locale };
+}): Promise<Metadata> => {
+  const dictionary = await getDictionary(lang);
+
+  return { title: dictionary.titles.realLimpeza };
 };
 
 export default async function RealLimpezaPage({

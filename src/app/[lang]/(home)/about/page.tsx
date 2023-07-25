@@ -5,8 +5,14 @@ import { getDictionary } from "@/get-dictionary";
 import { Locale } from "@/i18n-config";
 import { Metadata } from "next";
 
-export const metadata: Metadata = {
-  title: "About | Studio Cauê Henrique",
+export const generateMetadata = async ({
+  params: { lang },
+}: {
+  params: { lang: Locale };
+}): Promise<Metadata> => {
+  const dictionary = await getDictionary(lang);
+
+  return { title: dictionary.titles.about };
 };
 
 export default async function AboutPage({
