@@ -6,7 +6,13 @@ import Link from "next/link";
 export default function Footer({
   dictionary,
 }: {
-  dictionary: { text1: string; text2: string; link: string; lang: string };
+  dictionary: {
+    text1: string;
+    text2: string;
+    text3: string;
+    link: string;
+    lang: string;
+  };
 }) {
   return (
     <footer className="flex min-w-[338.55px] justify-center">
@@ -53,6 +59,15 @@ export default function Footer({
               height={48}
             />
           </a>
+        </div>
+        <div className="flex justify-center gap-1 font-robotoSlab max-sm:text-[0.5rem] max-sm:leading-3">
+          {dictionary.text3}
+          <Link
+            className="uppercase text-primary-300 hover:underline"
+            href={`/${dictionary.lang}/languages/`}
+          >
+            {dictionary.lang}
+          </Link>
         </div>
       </div>
     </footer>
