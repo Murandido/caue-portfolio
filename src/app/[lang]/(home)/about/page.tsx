@@ -23,7 +23,7 @@ export default async function AboutPage({
   const dictionary = await getDictionary(lang);
 
   return (
-    <main className="min-w-[338.55px]">
+    <main className="min-w-header">
       <Hero>
         <span className="text-primary-300">
           {dictionary.components.Hero.about.highlight1}

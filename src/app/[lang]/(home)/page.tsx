@@ -33,7 +33,7 @@ export default async function Home({
         </span>
         {dictionary.components.Hero.index.text2}
       </Hero>
-      <section className="min-w-[338.55px]">
+      <section className="min-w-header">
         <div className="m-5 mb-0 flex flex-wrap items-center justify-center gap-5">
           <ProjectLink
             name="Real Limpeza"

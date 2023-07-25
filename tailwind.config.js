@@ -54,6 +54,10 @@ module.exports = {
       screens: {
         xs: "384px",
       },
+
+      minWidth: {
+        header: "358.33px",
+      },
     },
   },
   plugins: [],

@@ -26,7 +26,7 @@ export default async function RealLimpezaPage({
 
   return (
     <main className="slideUp">
-      <div className="flex min-w-[338.55px] flex-wrap-reverse items-center justify-center gap-5">
+      <div className="flex min-w-header flex-wrap-reverse items-center justify-center gap-5">
         <Hero
           title="cauehenrique"
           description={dictionary.portfolio.caueHenrique.text}
@@ -43,7 +43,7 @@ export default async function RealLimpezaPage({
           />
         </div>
       </div>
-      <div className="min-w-[338.55px] bg-white">
+      <div className="min-w-header bg-white">
         <div className="flex flex-wrap items-center justify-center gap-5 p-5">
           <Image
             className="w-[117.5rem]"

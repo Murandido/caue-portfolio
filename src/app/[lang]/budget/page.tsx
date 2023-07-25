@@ -23,7 +23,7 @@ export default async function Budget({
   const dictionary = await getDictionary(lang);
 
   return (
-    <main className="flex min-w-[338.55px] flex-grow">
+    <main className="flex min-w-header flex-grow">
       <section className="mx-40 flex items-center font-robotoSlab text-2xl leading-normal max-lg:mx-10 max-sm:text-sm max-xs:mx-5">
         <div className="slideUp flex max-w-[40rem] flex-col gap-6 max-sm:gap-2">
           <div className="flex">
