@@ -12,7 +12,7 @@ export const generateMetadata = async ({
 }): Promise<Metadata> => {
   const dictionary = await getDictionary(lang);
 
-  return { title: dictionary.titles.about };
+  return { title: dictionary.titles.about, description: dictionary.desc.about };
 };
 
 export default async function AboutPage({

@@ -9,7 +9,10 @@ export const generateMetadata = async ({
 }): Promise<Metadata> => {
   const dictionary = await getDictionary(lang);
 
-  return { title: dictionary.titles.budget };
+  return {
+    title: dictionary.titles.budget,
+    description: dictionary.desc.budget,
+  };
 };
 
 export default async function Budget({

@@ -11,7 +11,10 @@ export const generateMetadata = async ({
 }): Promise<Metadata> => {
   const dictionary = await getDictionary(lang);
 
-  return { title: dictionary.titles.cauehenrique };
+  return {
+    title: dictionary.titles.cauehenrique,
+    description: dictionary.desc.cauehenrique,
+  };
 };
 
 export default async function RealLimpezaPage({

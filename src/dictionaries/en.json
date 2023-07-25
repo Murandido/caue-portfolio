@@ -62,7 +62,7 @@
       "country": "Brazil"
     },
     "devine": {
-      "text": "Devine is a company that wants to innovate in the Alfajores (caramel cookie) segment making various flavors different to catch the public's attention, a company like this needs an identity unique, striking and differentiated.",
+      "text": "Devine is a company that wants to innovate in the Alfajores (caramel cookie) segment, making various flavors different to catch the public's attention, a company like this needs an identity unique, striking and differentiated.",
       "country": "Brazil"
     },
     "xchango": {
@@ -82,5 +82,14 @@
     "devine": "Devine | Studio Cauê Henrique",
     "xchango": "Xchango | Studio Cauê Henrique",
     "cauehenrique": "Cauê Henrique | Studio Cauê Henrique"
+  },
+  "desc": {
+    "index": "Your brand is unique and deserves a visual identity that represents it in an authentic and unforgettable way.",
+    "about": "It's about creating creative solutions for companies that need to differentiate themselves in the market scenario.",
+    "budget": "Contact-us! Are you in need of a visual identity quote? Send an e-mail to: contact@cauehenrique.com",
+    "realLimpeza": "Real Limpeza is a company specialized in cleaning services with extensive experience in the sector.",
+    "devine": "Devine is a company that wants to innovate in the Alfajores (caramel cookie) segment, making various flavors different to catch the public's attention",
+    "xchango": "Xchango is a foreign exchange analysis website that compares the rates between two selected currencies and sends an email notifying you about the profit gained from the transaction.",
+    "cauehenrique": "Cauê Henrique is a brand, user interface, and experience designer. This visual identity was created for his studio."
   }
 }

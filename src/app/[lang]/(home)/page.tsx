@@ -11,7 +11,7 @@ export const generateMetadata = async ({
 }): Promise<Metadata> => {
   const dictionary = await getDictionary(lang);
 
-  return { title: dictionary.titles.index };
+  return { title: dictionary.titles.index, description: dictionary.desc.index };
 };
 
 export default async function Home({
