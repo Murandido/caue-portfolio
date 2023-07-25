@@ -57,6 +57,13 @@
     "title": "Contact-us",
     "text": "Are you in need of a comprehensive visual identity quote? Send an e-mail to:"
   },
+  "languages": {
+    "title": "Select the language",
+    "links": {
+      "1": "English [EN]",
+      "2": "Portuguese [PT]"
+    }
+  },
   "portfolio": {
     "realLimpeza": {
       "text": "Real Limpeza is a company specialized in residential, commercial and industrial cleaning services, including glass, facade and post-construction cleaning. With extensive experience in the sector.",

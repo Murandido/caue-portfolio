@@ -57,6 +57,13 @@
     "title": "Entre em contato",
     "text": "Você precisa de um orçamento abrangente para identidade visual? Envie um e-mail para:"
   },
+  "languages": {
+    "title": "Selecione o Idioma",
+    "links": {
+      "1": "Inglês [EN]",
+      "2": "Português [PT]"
+    }
+  },
   "portfolio": {
     "realLimpeza": {
       "text": "A Real Limpeza é uma empresa especializada em serviços de limpeza residencial, comercial e industrial, incluindo limpeza de vidros, fachadas e pós-construção. Com ampla experiência no setor.",
