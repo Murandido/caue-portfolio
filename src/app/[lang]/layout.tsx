@@ -24,7 +24,7 @@ export default function RootLayout({
   return (
     <html lang={params.lang}>
       <body
-        className={`${syncopate.variable} scroll-smooth bg-secondary-300 font-righteous text-black-300 selection:bg-primary-300 selection:text-secondary-200`}
+        className={`${syncopate.variable} text-black-300 scroll-smooth bg-secondary-300 font-righteous selection:bg-primary-300 selection:text-secondary-200`}
       >
         {children}
       </body>
