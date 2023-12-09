@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Syncopate } from "next/font/google";
 import "./globals.css";
 import { ReactNode } from "react";
+import Header from "@/components/Header";
 
 const syncopate = Syncopate({
   subsets: ["latin"],
@@ -17,7 +18,10 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html lang="pt-br">
-      <body className={`${syncopate.className}`}>{children}</body>
+      <body className={`${syncopate.className}`}>
+        <Header />
+        {children}
+      </body>
     </html>
   );
 }
