@@ -5,18 +5,28 @@ import Link from "next/link";
 export default function Header() {
   return (
     <header className="font-gelica">
-      <div className="my-10 flex mx-[11.25rem] justify-between">
+      <div className="mx-[11.25rem] my-10 flex justify-between">
         <div>
           <Link href="/">
             <Image src={caueHenriqueLogoSVG} alt="caue henrique logo" />
           </Link>
         </div>
-        <div className="flex items-center justify-center text-xl gap-12">
-            <a className="hover:underline hover:text-primary-400" href="/">Home</a>
-            <a className="hover:underline hover:text-primary-400" href="/">Articles</a>
-            <a className="hover:underline hover:text-primary-400" href="/">About</a>
-            <a className="hover:underline hover:text-primary-400" href="/">Budget</a>
-            <a className="hover:underline hover:text-primary-400" href="/">Common questions</a>
+        <div className="flex items-center justify-center gap-12 text-xl">
+          <a className="hover:text-primary-400 hover:underline" href="/">
+            Home
+          </a>
+          <a className="hover:text-primary-400 hover:underline" href="/">
+            Articles
+          </a>
+          <a className="hover:text-primary-400 hover:underline" href="/">
+            About
+          </a>
+          <a className="hover:text-primary-400 hover:underline" href="/">
+            Budget
+          </a>
+          <a className="hover:text-primary-400 hover:underline" href="/">
+            Common questions
+          </a>
         </div>
       </div>
     </header>
