@@ -37,6 +37,14 @@ const config: Config = {
           900: "#595447",
         },
       },
+      screens: {
+        xs: "512px",
+        xxs: "384px",
+        minimum: "224px",
+      },
+      minWidth: {
+        minimum: "224px",
+      },
     },
   },
   plugins: [],
