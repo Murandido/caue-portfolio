@@ -1,5 +1,5 @@
 import Image from "next/image";
-import caueHenriqueLogoSVG from "../../assets/images/caueHenriqueLogo.svg";
+import caueHenriqueLogoSVG from "../../assets/logos/caueHenriqueLogo.svg";
 import Link from "next/link";
 
 export default function Header() {
