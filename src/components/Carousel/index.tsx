@@ -42,6 +42,7 @@ export default function Carousel({ slides }: CarouselProps) {
       onContextMenu={(e) => e.preventDefault()}
     >
       <div className="relative overflow-hidden">
+        {/* bg images */}
         <div
           className="flex transition duration-300 ease-out"
           style={{ transform: `translateX(-${currentSlide * 100}%)` }}
@@ -57,6 +58,18 @@ export default function Carousel({ slides }: CarouselProps) {
               />
             );
           })}
+        </div>
+
+        {/* hero */}
+        <div className="absolute top-1/2 ml-[11.25rem] flex w-[28rem] -translate-y-1/2 flex-col gap-6">
+          <div className="text-2xl font-bold uppercase leading-[150%]">
+            If your design doesn&apos;t speak to the right audience, who is it
+            telling its story to?
+          </div>
+          <div className="font-gelica text-xl">
+            A strong visual communication is essential, especially for
+            businesses aiming to build lasting relationships with customers.
+          </div>
         </div>
       </div>
     </div>
