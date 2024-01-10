@@ -18,7 +18,7 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html lang="pt-br">
-      <body className={`${syncopate.className}`}>
+      <body className={`${syncopate.className} box-border`}>
         <Header />
         {children}
       </body>
