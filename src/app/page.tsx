@@ -1,5 +1,6 @@
 import Carousel from "@/components/Carousel";
 import Hero from "@/components/Hero";
+import KnowMore from "@/components/KnowMore";
 import WorksMenu from "@/components/WorksMenu";
 import { Metadata } from "next";
 import React from "react";
@@ -23,6 +24,7 @@ export default function Home() {
       <Carousel slides={slides} />
       <Hero />
       <WorksMenu />
+      <KnowMore />
     </main>
   );
 }
