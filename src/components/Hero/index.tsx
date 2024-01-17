@@ -1,6 +1,6 @@
 export default function Hero() {
   return (
-    <div className="xl:hidden">
+    <div className="mt-[8.5rem] max-xs:mt-14 xl:hidden">
       <div>
         <div className="flex h-[45rem] w-full min-w-minimum items-center justify-center bg-[url('https://i.imgur.com/Hr4573F.png')] bg-cover max-xs:h-[19.5rem]">
           <div className="mx-[5.5rem] flex flex-col items-center justify-center gap-4 max-xs:mx-8">

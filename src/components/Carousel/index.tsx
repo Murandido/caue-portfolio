@@ -37,7 +37,7 @@ export default function Carousel({ slides }: CarouselProps) {
 
   return (
     <div
-      className="w-full max-xl:hidden"
+      className="mt-[8.5rem] w-full max-xl:hidden"
       onMouseDown={handleClick}
       onContextMenu={(e) => e.preventDefault()}
     >
