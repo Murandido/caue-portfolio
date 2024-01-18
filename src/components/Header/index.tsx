@@ -1,10 +1,15 @@
+"use client";
+
 import Image from "next/image";
 import caueHenriqueLogoSVG from "../../assets/logos/caueHenriqueLogo.svg";
 import Link from "next/link";
 import HamburgerButton from "./HamburgerButton";
 import CompactNavbar from "../CompactNavbar";
+import { useState } from "react";
 
 export default function Header() {
+  const [isMenuClicked, setIsMenuClicked] = useState<boolean>(false);
+
   return (
     <header className="fixed top-0 z-[1] flex h-[8.5rem] w-full min-w-minimum items-center bg-white font-gelica max-xs:h-14">
       <div className="mx-[11.25rem] flex flex-grow justify-between max-xl:mx-[5.5rem] max-xs:mx-8">
@@ -36,8 +41,8 @@ export default function Header() {
             Common questions
           </a>
         </nav>
-        <HamburgerButton />
-        <CompactNavbar />
+        <HamburgerButton state={[isMenuClicked, setIsMenuClicked]} />
+        <CompactNavbar isMenuClicked={isMenuClicked} />
       </div>
     </header>
   );
