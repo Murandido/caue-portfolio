@@ -2,6 +2,7 @@ import Image from "next/image";
 import caueHenriqueLogoSVG from "../../assets/logos/caueHenriqueLogo.svg";
 import Link from "next/link";
 import HamburgerButton from "./HamburgerButton";
+import CompactNavbar from "../CompactNavbar";
 
 export default function Header() {
   return (
@@ -36,6 +37,7 @@ export default function Header() {
           </a>
         </nav>
         <HamburgerButton />
+        <CompactNavbar />
       </div>
     </header>
   );
