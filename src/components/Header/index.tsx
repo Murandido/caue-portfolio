@@ -1,11 +1,11 @@
 "use client";
-
+import { useState } from "react";
 import Image from "next/image";
-import caueHenriqueLogoSVG from "../../assets/logos/caueHenriqueLogo.svg";
 import Link from "next/link";
 import HamburgerButton from "./HamburgerButton";
 import CompactNavbar from "../CompactNavbar";
-import { useState } from "react";
+
+import caueHenriqueLogoSVG from "../../assets/logos/caueHenriqueLogo.svg";
 
 export default function Header() {
   const [isMenuClicked, setIsMenuClicked] = useState<boolean>(false);
@@ -25,12 +25,15 @@ export default function Header() {
         </div>
         {/* navbar */}
         <nav className="flex items-center justify-center gap-12 text-xl max-xl:hidden">
-          <a className="hover:text-primary-400 hover:underline" href="/">
+          <Link className="hover:text-primary-400 hover:underline" href="/">
             Home
-          </a>
-          <a className="hover:text-primary-400 hover:underline" href="/">
+          </Link>
+          <Link
+            className="hover:text-primary-400 hover:underline"
+            href="/articles"
+          >
             Articles
-          </a>
+          </Link>
           <a className="hover:text-primary-400 hover:underline" href="/">
             About
           </a>

@@ -1,10 +1,10 @@
+import { ReactNode } from "react";
 import type { Metadata } from "next";
 import { Syncopate } from "next/font/google";
-import "../styles/globals.css";
-import "../styles/CompactNavbarStyle.css";
-import { ReactNode } from "react";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import "../styles/CompactNavbarStyle.css";
+import "../styles/globals.css";
 
 const syncopate = Syncopate({
   subsets: ["latin"],
@@ -22,7 +22,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
     <html lang="pt-br">
       <body className={`${syncopate.className} box-border`}>
         <Header />
-        {children}
+        <main className="mt-[8.5rem] max-xs:mt-14">{children}</main>
         <Footer />
       </body>
     </html>
