@@ -1,4 +1,5 @@
 import ArticlesHero from "@/components/ArticlesHero";
+import ArticlesMenu from "@/components/ArticlesMenu";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -11,6 +12,7 @@ export default function Articles() {
   return (
     <div>
       <ArticlesHero />
+      <ArticlesMenu />
     </div>
   );
 }
