@@ -1,15 +1,8 @@
+import Head from "next/head";
 import Carousel from "@/components/Carousel";
 import Hero from "@/components/Hero";
 import KnowMore from "@/components/KnowMore";
 import WorksMenu from "@/components/WorksMenu";
-import { Metadata } from "next";
-import React from "react";
-
-export const metadata: Metadata = {
-  title: "Cauê Henrique | Brand design studio",
-  description:
-    "If your design doesn't speak to the right audience, who is it telling its story to?",
-};
 
 export default function Home() {
   const slides = [
@@ -21,6 +14,13 @@ export default function Home() {
 
   return (
     <main>
+      <Head>
+        <title>Cauê Henrique | Brand design studio</title>
+        <meta
+          name="description"
+          content="If your design doesn't speak to the right audience, who is it telling its story to?"
+        />
+      </Head>
       <Carousel slides={slides} />
       <Hero />
       <WorksMenu />
