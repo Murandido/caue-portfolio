@@ -3,6 +3,7 @@ import Carousel from "@/components/Carousel";
 import Hero from "@/components/Hero";
 import KnowMore from "@/components/KnowMore";
 import WorksMenu from "@/components/WorksMenu";
+import Inner from "@/components/Inner";
 
 export default function Home() {
   const slides = [
@@ -13,7 +14,7 @@ export default function Home() {
   ];
 
   return (
-    <main>
+    <>
       <Head>
         <title>Cauê Henrique | Brand design studio</title>
         <meta
@@ -21,10 +22,12 @@ export default function Home() {
           content="If your design doesn't speak to the right audience, who is it telling its story to?"
         />
       </Head>
-      <Carousel slides={slides} />
-      <Hero />
-      <WorksMenu />
-      <KnowMore />
-    </main>
+      <Inner>
+        <Carousel slides={slides} />
+        <Hero />
+        <WorksMenu />
+        <KnowMore />
+      </Inner>
+    </>
   );
 }

@@ -1,7 +1,11 @@
+import { useRouter } from "next/router";
+import { AppProps } from "next/app";
 import { Syncopate } from "next/font/google";
+import { AnimatePresence } from "framer-motion";
 import "../styles/CompactNavbarStyle.css";
 import "../styles/globals.css";
-import { AppProps } from "next/app";
+import Header from "@/components/Header";
+import Footer from "@/components/Footer";
 
 const syncopate = Syncopate({
   subsets: ["latin"],
@@ -10,11 +14,18 @@ const syncopate = Syncopate({
 });
 
 export default function RootLayout({ Component, pageProps }: AppProps) {
+  const router = useRouter();
   return (
-    <main
-      className={`${syncopate.className} mt-[8.5rem] box-border max-xs:mt-14`}
-    >
-      <Component {...pageProps} />
-    </main>
+    <>
+      <Header />
+      <main
+        className={`${syncopate.className} mt-[8.5rem] box-border max-xs:mt-14`}
+      >
+        <AnimatePresence mode="wait">
+          <Component key={router.route} {...pageProps} />
+        </AnimatePresence>
+      </main>
+      <Footer />
+    </>
   );
 }
