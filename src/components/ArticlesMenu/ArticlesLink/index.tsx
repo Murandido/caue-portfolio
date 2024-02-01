@@ -23,7 +23,7 @@ export default function ArticlesLink({
           height={648}
         />
       </div>
-      <div className="font-gelica text-xl leading-[150%] hover:text-primary-400 hover:underline max-xs:text-sm">
+      <div className="font-gelica text-xl leading-[150%] max-xs:text-sm">
         {message}
       </div>
     </Link>
