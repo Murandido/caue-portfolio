@@ -1,7 +1,8 @@
 "use client";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
+import { useRouter } from "next/router";
 import HamburgerButton from "./HamburgerButton";
 import CompactNavbar from "../CompactNavbar";
 
@@ -9,6 +10,11 @@ import caueHenriqueLogoSVG from "../../assets/logos/caueHenriqueLogo.svg";
 
 export default function Header() {
   const [isMenuClicked, setIsMenuClicked] = useState<boolean>(false);
+  const dynamicRoute = useRouter().asPath;
+
+  useEffect(() => {
+    setIsMenuClicked(false);
+  }, [setIsMenuClicked, dynamicRoute]);
 
   return (
     <header className="fixed top-0 z-[1] flex h-[8.5rem] w-full min-w-minimum items-center bg-white font-gelica max-xs:h-14">

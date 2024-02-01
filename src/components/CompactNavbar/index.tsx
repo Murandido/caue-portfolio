@@ -1,4 +1,3 @@
-"use client";
 import Image from "next/image";
 import clsx from "clsx";
 import NavbarLink from "./NavbarLink";
@@ -32,7 +31,7 @@ export default function CompactNavbar({ isMenuClicked }: CompactNavbarProps) {
           <Image src={HomeIconSVG} alt="home icon" />
         </div>
         <div className={navItemClasses}>
-          <NavbarLink name="Articles" href="/" />
+          <NavbarLink name="Articles" href="/articles" />
           <Image src={ArticlesIconSVG} alt="articles icon" />
         </div>
         <div className={navItemClasses}>
