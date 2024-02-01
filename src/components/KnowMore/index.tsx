@@ -13,7 +13,7 @@ export default function KnowMore() {
           </p>
           <a
             className="text-center font-gelica text-xl leading-[150%] underline hover:text-primary-400 max-md:text-xs"
-            href="/"
+            href="#"
           >
             +Know more about our methodology
           </a>
