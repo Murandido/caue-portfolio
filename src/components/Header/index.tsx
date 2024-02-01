@@ -34,15 +34,15 @@ export default function Header() {
           >
             Articles
           </Link>
-          <a className="hover:text-primary-400 hover:underline" href="/">
+          <Link className="hover:text-primary-400 hover:underline" href="/">
             About
-          </a>
-          <a className="hover:text-primary-400 hover:underline" href="/">
+          </Link>
+          <Link className="hover:text-primary-400 hover:underline" href="/">
             Budget
-          </a>
-          <a className="hover:text-primary-400 hover:underline" href="/">
+          </Link>
+          <Link className="hover:text-primary-400 hover:underline" href="/">
             Common questions
-          </a>
+          </Link>
         </nav>
         <HamburgerButton state={[isMenuClicked, setIsMenuClicked]} />
         <CompactNavbar isMenuClicked={isMenuClicked} />
