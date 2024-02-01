@@ -40,7 +40,10 @@ export default function Header() {
           >
             Articles
           </Link>
-          <Link className="hover:text-primary-400 hover:underline" href="/">
+          <Link
+            className="hover:text-primary-400 hover:underline"
+            href="/about"
+          >
             About
           </Link>
           <Link className="hover:text-primary-400 hover:underline" href="/">

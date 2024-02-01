@@ -35,7 +35,7 @@ export default function CompactNavbar({ isMenuClicked }: CompactNavbarProps) {
           <Image src={ArticlesIconSVG} alt="articles icon" />
         </div>
         <div className={navItemClasses}>
-          <NavbarLink name="About" href="/" />
+          <NavbarLink name="About" href="/about" />
           <Image src={AboutIconSVG} alt="about icon" />
         </div>
         <div className={navItemClasses}>
