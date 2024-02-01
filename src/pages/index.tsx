@@ -1,6 +1,6 @@
 import Head from "next/head";
 import Carousel from "@/components/Carousel";
-import Hero from "@/components/Hero";
+import { IndexHero } from "@/components/Hero";
 import KnowMore from "@/components/KnowMore";
 import WorksMenu from "@/components/WorksMenu";
 import Inner from "@/components/Inner";
@@ -24,7 +24,7 @@ export default function Home() {
       </Head>
       <Inner>
         <Carousel slides={slides} />
-        <Hero />
+        <IndexHero />
         <WorksMenu />
         <KnowMore />
       </Inner>

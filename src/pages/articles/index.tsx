@@ -1,6 +1,6 @@
 import Head from "next/head";
-import ArticlesHero from "@/components/ArticlesHero";
 import ArticlesMenu from "@/components/ArticlesMenu";
+import { ArticlesHero } from "@/components/Hero";
 import Inner from "@/components/Inner";
 
 export default function Articles() {
