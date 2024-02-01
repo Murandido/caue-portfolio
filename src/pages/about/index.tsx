@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Inner from "@/components/Inner";
+import { AboutHero } from "@/components/Hero";
 
 export default function About() {
   return (
@@ -11,7 +12,9 @@ export default function About() {
           content="It's about creating creative solutions for brands that need to differentiate in the market scenario"
         />
       </Head>
-      <Inner>about</Inner>
+      <Inner>
+        <AboutHero />
+      </Inner>
     </>
   );
 }
