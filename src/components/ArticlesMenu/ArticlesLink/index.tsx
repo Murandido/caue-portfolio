@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 interface ArticlesLinkProps {
   message: string;
@@ -12,7 +13,7 @@ export default function ArticlesLink({
   message,
 }: ArticlesLinkProps) {
   return (
-    <a href={link} className="flex max-w-[31.5rem] flex-col gap-4">
+    <Link href={link} className="flex max-w-[31.5rem] flex-col gap-4">
       <div className="overflow-hidden rounded-xl">
         <Image
           className="transition duration-500 ease-in-out hover:scale-125"
@@ -25,6 +26,6 @@ export default function ArticlesLink({
       <div className="font-gelica text-xl leading-[150%] hover:text-primary-400 hover:underline max-xs:text-sm">
         {message}
       </div>
-    </a>
+    </Link>
   );
 }
