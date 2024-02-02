@@ -1,7 +1,9 @@
 @import url('https://use.typekit.net/mbo6ejv.css');
+@import url('https://fonts.googleapis.com/css2?family=Syncopate:wght@400;700&display=swap');
 
 :root {
   --font-gelica: 'gelica', sans-serif;
+  --font-syncopate: "Syncopate", sans-serif;
 }
 
 @tailwind base;

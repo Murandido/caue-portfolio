@@ -10,7 +10,6 @@ import Footer from "@/components/Footer";
 const syncopate = Syncopate({
   subsets: ["latin"],
   weight: ["400", "700"],
-  variable: "--font-syncopate",
 });
 
 export default function RootLayout({ Component, pageProps }: AppProps) {
