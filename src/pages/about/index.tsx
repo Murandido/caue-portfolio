@@ -89,6 +89,20 @@ export default function About() {
             />
           </div>
         </div>
+        <div className="min-w-minimum">
+          <div className="mx-[11.25rem] mb-28 mt-[5.5rem] flex flex-wrap gap-12 text-xl leading-[150%] max-xl:mx-[5.5rem] max-xl:mb-24 max-xl:mt-12 max-xs:mx-8 max-xs:mb-12 max-xs:mt-6 max-xs:gap-6 max-xs:text-xs">
+            <h1 className="flex-[0_1_27.625rem] font-bold uppercase">
+              Methodology for brands that want to grow.
+            </h1>
+            <p className="flex-[1_1_41rem] font-gelica">
+              Methodology, that&apos;s the right word to describe the path to
+              success, especially in identity design. It&apos;s no coincidence
+              that this is the design area most valued by major brands. We hope
+              this has been enough to guide your perception of our work and make
+              clear the importance of visual identity for your company.
+            </p>
+          </div>
+        </div>
       </Inner>
     </>
   );
