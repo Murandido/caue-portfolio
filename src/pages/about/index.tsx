@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Inner from "@/components/Inner";
 import { AboutHero } from "@/components/Hero";
+import MethodologyStep from "@/components/MethodologyStep";
 
 export default function About() {
   return (
@@ -15,7 +16,7 @@ export default function About() {
       <Inner>
         <AboutHero />
         <div className="flex min-w-minimum flex-col items-center justify-center font-gelica text-xl leading-[150%] max-xs:text-xs">
-          <div className="flex w-full flex-wrap gap-12 px-[11.25rem] pb-[5.5rem] pt-[11.25rem] max-xl:p-[5.5rem] max-xs:p-12 max-xs:pb-6">
+          <div className="flex w-full flex-wrap gap-12 p-[11.25rem] pb-[5.5rem] max-xl:p-[5.5rem] max-xl:pb-12 max-xs:px-8 max-xs:pb-6 max-xs:pt-12">
             <h1 className="flex-[0_1_27.625rem] font-syncopate font-bold uppercase">
               We are a brand design studio that believes in human connection.
             </h1>
@@ -40,7 +41,7 @@ export default function About() {
               </p>
             </div>
           </div>
-          <div className="flex w-full flex-wrap gap-12 px-[11.25rem] pb-[9.75rem] pt-[5.5rem] max-xl:p-[5.5rem] max-xs:p-12 max-xs:pt-6">
+          <div className="flex w-full flex-wrap gap-12 px-[11.25rem] pb-[9.75rem] pt-[5.5rem] max-xl:p-[5.5rem] max-xl:pt-12 max-xs:px-8 max-xs:py-6">
             <h1 className="flex-[0_1_27.625rem] font-syncopate font-bold uppercase">
               What about cauê henrique?
             </h1>
@@ -62,6 +63,30 @@ export default function About() {
                 <div>Curso online de identidade visual [ID Class]</div>
               </div>
             </div>
+          </div>
+        </div>
+        <div className="min-w-minimum">
+          <div className="mx-[11.25rem] my-6 flex flex-col gap-6 max-xl:mx-[5.5rem] max-xs:mx-8">
+            <MethodologyStep
+              title="Imerssion"
+              desc='An experience to "immerse" oneself in the process and comprehend how design will position your brand in the market. Analyses that will assist us in understanding the purpose, the process, and the "reason for being" of your brand. We will analyze who your target audience is, who the competitors are, and how your brand can stand out in the market.'
+            />
+            <MethodologyStep
+              title="Tune"
+              desc="A collaboration to centralize, balance, and identify the exact path of our journey. A report will be presented summarizing all analyses and findings up to this point. We will engage in an activity to define the visual direction, align expectations, and strategically guide our efforts."
+            />
+            <MethodologyStep
+              title="Reason"
+              desc="A flow of ideas materializing effective solutions in shapes, colors, typography, and supporting elements. It's time to bring to life the strategies outlined in previous stages. Through sketches, we will generate a set of ideas aligned with the brand guidelines. Subsequently, we will filter the best options and refine them until we achieve the ideal format."
+            />
+            <MethodologyStep
+              title="Manifest"
+              desc="The grand moment to present the results with brand applications and the creative process. With the participation of all partners, we will recap the project's development from the beginning to the central idea. This will enable an understanding of the functionalities and advantages of the new visual system."
+            />
+            <MethodologyStep
+              title="Epilogue"
+              desc="Conclusion and file delivery, including the logo and its versions, font, graphic elements, and a manual. We've prepared a package with all deliverables, accompanied by an essential guide for the internal design team and partners. This document provides crucial information for the accurate reproduction of the brand, safeguarding its fundamental characteristics."
+            />
           </div>
         </div>
       </Inner>
