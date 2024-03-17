@@ -46,7 +46,10 @@ export default function Header() {
           >
             About
           </Link>
-          <Link className="hover:text-primary-400 hover:underline" href="/">
+          <Link
+            className="hover:text-primary-400 hover:underline"
+            href="/budget"
+          >
             Budget
           </Link>
           <Link className="hover:text-primary-400 hover:underline" href="/">
