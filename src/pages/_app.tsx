@@ -3,6 +3,7 @@ import { AppProps } from "next/app";
 import { Syncopate } from "next/font/google";
 import { AnimatePresence } from "framer-motion";
 import "../styles/CompactNavbarStyle.css";
+import "../styles/budget.css";
 import "../styles/globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";

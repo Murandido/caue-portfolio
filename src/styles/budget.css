@@ -1,0 +1,9 @@
+.lista {
+  list-style-type: none;
+  counter-reset: counter-lista;
+}
+
+.lista li:before {
+  content: counter(counter-lista) " - ";
+  counter-increment: counter-lista;
+}
