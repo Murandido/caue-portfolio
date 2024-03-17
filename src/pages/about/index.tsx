@@ -58,7 +58,7 @@ export default function About() {
                 effectively communicate with the target audience. Come and
                 discover how the 5 stages of his methodology work.
               </p>
-              <div className="mt-8 text-sm font-light">
+              <div className="mt-8 text-sm font-light leading-[150%] max-xs:text-[0.5rem]">
                 <div>Design Gráfico - Ferramentas Digitais [Senac]</div>
                 <div>Curso online de identidade visual [ID Class]</div>
               </div>
