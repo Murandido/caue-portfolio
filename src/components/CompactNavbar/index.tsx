@@ -43,7 +43,7 @@ export default function CompactNavbar({ isMenuClicked }: CompactNavbarProps) {
           <Image src={BudgetIconSVG} alt="budget icon" />
         </div>
         <div className={`${navItemClasses} border-b-0`}>
-          <NavbarLink name="Common questions" href="/" />
+          <NavbarLink name="Common questions" href="/commonquestions" />
           <Image src={CommonQuestionsIconSVG} alt="common questions icon" />
         </div>
       </div>
