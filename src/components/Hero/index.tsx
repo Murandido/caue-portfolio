@@ -73,3 +73,20 @@ export const BudgetHero = () => {
     </div>
   );
 };
+
+export const CommonQuestionsHero = () => {
+  return (
+    <div className="flex h-[25rem] min-w-minimum items-center justify-center bg-[url(https://i.imgur.com/QCxwANq.png)] bg-center">
+      <div className="mx-[5.5rem] flex max-w-[41rem] flex-col items-center justify-center gap-8 leading-[150%] max-xs:mx-8">
+        <h1 className="text-center text-[2.5rem] font-bold uppercase leading-[150%] max-xs:text-xl">
+          Common Questions
+        </h1>
+        <p className="text-center font-gelica text-xl max-xs:text-xs">
+          To simplify our work and enhance our clients&apos; understanding, this
+          page has been created with the most common questions about our
+          services.
+        </p>
+      </div>
+    </div>
+  );
+};

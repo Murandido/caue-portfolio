@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Inner from "@/components/Inner";
+import { CommonQuestionsHero } from "@/components/Hero";
 
 export default function CommonQuestions() {
   return (
@@ -12,7 +13,7 @@ export default function CommonQuestions() {
         />
       </Head>
       <Inner>
-        <div>Common Questions</div>
+        <CommonQuestionsHero />
       </Inner>
     </>
   );
