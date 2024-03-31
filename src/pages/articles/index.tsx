@@ -1,7 +1,9 @@
+import { ReactElement } from "react";
 import Head from "next/head";
 import ArticlesMenu from "@/components/ArticlesMenu";
 import { ArticlesHero } from "@/components/Hero";
 import Inner from "@/components/Inner";
+import Layout from "@/components/Layout";
 
 export default function Articles() {
   return (
@@ -20,3 +22,7 @@ export default function Articles() {
     </>
   );
 }
+
+Articles.getLayout = function getLayout(page: ReactElement) {
+  return <Layout>{page}</Layout>;
+};

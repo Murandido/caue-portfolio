@@ -1,7 +1,9 @@
+import { ReactElement } from "react";
 import Head from "next/head";
 import Inner from "@/components/Inner";
 import { CommonQuestionsHero } from "@/components/Hero";
 import QuestionItem from "@/components/QuestionItem";
+import Layout from "@/components/Layout";
 
 export default function CommonQuestions() {
   return (
@@ -249,3 +251,7 @@ export default function CommonQuestions() {
     </>
   );
 }
+
+CommonQuestions.getLayout = function getLayout(page: ReactElement) {
+  return <Layout>{page}</Layout>;
+};

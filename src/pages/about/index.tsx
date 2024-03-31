@@ -1,7 +1,9 @@
+import { ReactElement } from "react";
 import Head from "next/head";
 import Inner from "@/components/Inner";
 import { AboutHero } from "@/components/Hero";
 import MethodologyStep from "@/components/MethodologyStep";
+import Layout from "@/components/Layout";
 
 export default function About() {
   return (
@@ -107,3 +109,7 @@ export default function About() {
     </>
   );
 }
+
+About.getLayout = function getLayout(page: ReactElement) {
+  return <Layout>{page}</Layout>;
+};

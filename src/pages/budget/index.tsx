@@ -1,6 +1,8 @@
+import { ReactElement } from "react";
 import Head from "next/head";
 import Inner from "@/components/Inner";
 import { BudgetHero } from "@/components/Hero";
+import Layout from "@/components/Layout";
 
 export default function Budget() {
   return (
@@ -38,3 +40,7 @@ export default function Budget() {
     </>
   );
 }
+
+Budget.getLayout = function getLayout(page: ReactElement) {
+  return <Layout>{page}</Layout>;
+};
