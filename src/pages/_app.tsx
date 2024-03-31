@@ -30,7 +30,7 @@ export default function RootLayout({
   const getLayout = Component.getLayout ?? ((page: ReactElement) => page);
 
   return getLayout(
-    <div className={`${syncopate.className} box-border max-xs:mt-14`}>
+    <div className={`${syncopate.className} box-border`}>
       <AnimatePresence mode="wait">
         <Component key={router.route} {...pageProps} />
       </AnimatePresence>
