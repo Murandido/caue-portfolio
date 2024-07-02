@@ -8,7 +8,7 @@ export default function WorksMenu() {
           <WorkItem
             name="Real Limpeza"
             image="https://i.imgur.com/aSNYcsN.png"
-            link="/"
+            link="/reallimpeza"
           />
           <WorkItem
             name="Devine"
