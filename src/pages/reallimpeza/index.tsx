@@ -17,7 +17,7 @@ export default function RealLimpeza() {
       <div className="min-w-minimum">
         <div className="mx-[11.25rem] flex flex-col gap-24 max-xl:mx-[5.5rem] max-xs:mx-8 max-xs:gap-12">
           <WorkHero
-            capeLink="https://i.imgur.com/GXwysPn.png"
+            capeLink="https://i.imgur.com/XnGQarO.png"
             alt="Real Limpeza Cape"
             width={1560}
             height={880}
@@ -161,7 +161,7 @@ export default function RealLimpeza() {
             <div>
               <Image
                 className="rounded-lg"
-                src="https://i.imgur.com/XnGQarO.png"
+                src="https://i.imgur.com/GXwysPn.png"
                 alt="Real Limpeza Image 14"
                 width={1560}
                 height={880}
