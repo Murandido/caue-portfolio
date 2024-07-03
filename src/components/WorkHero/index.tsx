@@ -22,7 +22,13 @@ export default function WorkHero({
   return (
     <div className="flex flex-col gap-24 font-gelica text-xl leading-[150%] max-xs:gap-12 max-xs:text-xs">
       <div>
-        <Image src={capeLink} alt={alt} width={width} height={height} />
+        <Image
+          className="rounded-lg"
+          src={capeLink}
+          alt={alt}
+          width={width}
+          height={height}
+        />
       </div>
       <div className="flex flex-col gap-6">
         <div className="flex gap-2">

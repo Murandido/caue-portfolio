@@ -29,7 +29,7 @@ export default function RealLimpeza() {
             <div className="flex gap-6 max-xl:flex-col max-xs:gap-3">
               <div className="w-full">
                 <Image
-                  className="rounded-lg"
+                  className="w-full rounded-lg"
                   src="https://i.imgur.com/GIDGxR5.gif"
                   alt="Real Limpeza Gif 1"
                   width={768}
@@ -38,7 +38,7 @@ export default function RealLimpeza() {
               </div>
               <div className="w-full">
                 <Image
-                  className="rounded-lg"
+                  className="w-full rounded-lg"
                   src="https://i.imgur.com/MD62Im5.png"
                   alt="Real Limpeza Image 2"
                   width={768}
@@ -130,7 +130,7 @@ export default function RealLimpeza() {
               />
             </div>
             <div className="flex gap-6 max-xl:flex-col max-xs:gap-3">
-              <div>
+              <div className="w-full">
                 <Image
                   className="w-full rounded-lg"
                   src="https://i.imgur.com/XdIQDKr.png"
@@ -139,7 +139,7 @@ export default function RealLimpeza() {
                   height={768}
                 />
               </div>
-              <div>
+              <div className="w-full">
                 <Image
                   className="w-full rounded-lg"
                   src="https://i.imgur.com/q7NmhY2.png"
@@ -193,7 +193,7 @@ export default function RealLimpeza() {
               />
             </div>
             <div className="flex gap-6 max-xl:flex-col max-xs:gap-3">
-              <div>
+              <div className="w-full">
                 <Image
                   className="w-full rounded-lg"
                   src="https://i.imgur.com/CZy9L7W.png"
@@ -202,7 +202,7 @@ export default function RealLimpeza() {
                   height={768}
                 />
               </div>
-              <div>
+              <div className="w-full">
                 <Image
                   className="w-full rounded-lg"
                   src="https://i.imgur.com/0dXnlNx.png"
@@ -241,7 +241,7 @@ export default function RealLimpeza() {
                   </p>
                 </div>
                 <div className="flex w-full gap-6 max-xl:flex-col max-xs:gap-3">
-                  <div>
+                  <div className="w-full">
                     <Image
                       className="w-full rounded-lg"
                       src="https://i.imgur.com/z8mKxjs.png"
@@ -250,7 +250,7 @@ export default function RealLimpeza() {
                       height={432}
                     />
                   </div>
-                  <div>
+                  <div className="w-full">
                     <Image
                       className="w-full rounded-lg"
                       src="https://i.imgur.com/n9sQ5MY.png"
