@@ -225,7 +225,7 @@ export default function Devine() {
                 height={880}
               />
             </div>
-            <div>
+            <div className="mb-24 max-xl:mb-[5.5rem] max-xs:mb-8">
               <Image
                 className="rounded-lg"
                 src="https://i.imgur.com/hJOlwpI.png"
