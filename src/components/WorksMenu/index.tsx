@@ -25,7 +25,7 @@ export default function WorksMenu() {
           <WorkItem
             name="Murandido"
             image="https://i.imgur.com/KgBfrNU.png"
-            link="/"
+            link="/murandido"
           />
         </div>
       </div>
