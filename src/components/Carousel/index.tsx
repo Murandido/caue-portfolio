@@ -87,11 +87,11 @@ export default function Carousel({ slides }: CarouselProps) {
         {/* arrows */}
         <div
           onMouseDown={handleClickLeft}
-          className="absolute left-0 top-0 h-full w-1/2 cursor-[url('../assets/icons/leftArrowIcon.svg'),pointer]"
+          className="absolute left-0 top-0 h-full w-1/2 cursor-[url('/leftArrowIcon.svg'),pointer]"
         />
         <div
           onMouseDown={handleClickRight}
-          className="absolute right-0 top-0 h-full w-1/2 cursor-[url('../assets/icons/rightArrowIcon.svg'),pointer] "
+          className="absolute right-0 top-0 h-full w-1/2 cursor-[url('/rightArrowIcon.svg'),pointer] "
         />
       </div>
     </div>
