@@ -9,9 +9,9 @@ interface WorkItemProps {
 export default function WorkItem({ name, image, link }: WorkItemProps) {
   return (
     <a href={link} className="relative flex">
-      <div>
+      <div className="overflow-hidden">
         <Image
-          className="rounded-xl"
+          className="h-full rounded-xl object-cover"
           src={image}
           alt={`${name.toLowerCase()} page`}
           width={920}

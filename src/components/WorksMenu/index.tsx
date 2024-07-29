@@ -12,14 +12,14 @@ export default function WorksMenu() {
           />
           <WorkItem
             name="Devine"
-            image="https://i.imgur.com/BOzzkhz.png"
+            image="https://i.imgur.com/UaAvztP.png"
             link="/devine"
           />
         </div>
         <div className="flex gap-6 max-md:gap-4 max-xs:flex-col">
           <WorkItem
             name="Xchango"
-            image="https://i.imgur.com/bXa0i0m.png"
+            image="https://i.imgur.com/a3wL9Pn.png"
             link="/xchango"
           />
           <WorkItem
