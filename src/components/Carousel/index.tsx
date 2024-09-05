@@ -106,12 +106,12 @@ export default function Carousel({ slides }: CarouselProps) {
           className="flex transition duration-300 ease-out"
           style={{ transform: `translateX(-${currentSlide * 100}%)` }}
         >
-          {slides.map((s) => {
+          {slides.map((s, i) => {
             return (
               <Image
                 src={s}
                 key={s}
-                alt={`carousel ${s} image`}
+                alt={`carousel ${i + 1} image`}
                 width={1920}
                 height={720}
               />
@@ -171,7 +171,10 @@ export default function Carousel({ slides }: CarouselProps) {
               return (
                 <div
                   key={index}
-                  className={`h-3 w-3 rounded-full bg-black ${
+                  onClick={() => {
+                    setCurrentSlide(index);
+                  }}
+                  className={`h-3 w-3 rounded-full bg-black hover:cursor-pointer ${
                     index !== currentSlide && "opacity-50"
                   }`}
                 />
