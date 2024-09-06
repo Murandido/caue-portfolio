@@ -1,9 +1,12 @@
-import { ReactElement, ReactNode } from "react";
+import { ReactElement, ReactNode, useEffect } from "react";
 import { NextPage } from "next";
 import { useRouter } from "next/router";
 import { AppProps } from "next/app";
 import { Syncopate } from "next/font/google";
 import { AnimatePresence } from "framer-motion";
+import { OverlayScrollbars } from "overlayscrollbars";
+
+// import "overlayscrollbars/overlayscrollbars.css";
 import "../styles/CompactNavbarStyle.css";
 import "../styles/budget.css";
 import "../styles/globals.css";
@@ -26,6 +29,20 @@ export default function RootLayout({
   pageProps,
 }: AppPropsWithLayout) {
   const router = useRouter();
+
+  // custom scroll bar
+  useEffect(() => {
+    const osInstance = OverlayScrollbars(document.body, {
+      scrollbars: { autoHide: "never", theme: "os-theme-custom" },
+    });
+
+    // cleanup function
+    return () => {
+      if (osInstance) {
+        osInstance.destroy();
+      }
+    };
+  }, []);
 
   const getLayout = Component.getLayout ?? ((page: ReactElement) => page);
 
