@@ -1,7 +1,7 @@
 import { ReactElement } from "react";
 import Head from "next/head";
 import Carousel from "@/components/Carousel";
-import { IndexHero } from "@/components/Hero";
+// import { IndexHero } from "@/components/Hero";
 import KnowMore from "@/components/KnowMore";
 import WorksMenu from "@/components/WorksMenu";
 import Inner from "@/components/Inner";
@@ -26,7 +26,7 @@ export default function Home() {
       </Head>
       <Inner>
         <Carousel slides={slides} />
-        <IndexHero />
+        {/* <IndexHero /> */}
         <WorksMenu />
         <KnowMore />
       </Inner>

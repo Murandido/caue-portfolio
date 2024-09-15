@@ -99,7 +99,7 @@ export default function Carousel({ slides }: CarouselProps) {
     window.removeEventListener("mousemove", mouseMove);
   };
   return (
-    <div className="w-full max-xl:hidden">
+    <div className="w-full">
       <div className="relative overflow-hidden">
         {/* bg images */}
         <div
@@ -107,21 +107,38 @@ export default function Carousel({ slides }: CarouselProps) {
           style={{ transform: `translateX(-${currentSlide * 100}%)` }}
         >
           {slides.map((s, i) => {
+            let bg = "";
+
+            switch (i) {
+              case 0:
+                bg = "bg-slate-600";
+                break;
+
+              case 1:
+                bg = "bg-red-700";
+                break;
+
+              case 2:
+                bg = "bg-orange-700";
+                break;
+
+              case 3:
+                bg = "bg-green-700";
+                break;
+            }
+
             return (
-              <Image
-                src={s}
-                key={s}
-                alt={`carousel ${i + 1} image`}
-                width={1920}
-                height={720}
-              />
+              <div
+                key={i}
+                className={`h-[48.25rem] min-w-[100vw] max-xs:h-[28.75rem] ${bg}`}
+              ></div>
             );
           })}
         </div>
 
         {/* hero */}
-        <div className="absolute left-1/2 top-[4.75rem] w-[33.5rem] -translate-x-1/2">
-          <div className="text-center text-2xl font-bold uppercase leading-[150%]">
+        <div className="min-sw-[33.5rem] absolute top-[4.75rem] flex w-full justify-center">
+          <div className="mx-[11.25rem] w-[33.5rem] text-center text-2xl font-bold uppercase leading-[150%] max-xs:mx-8 max-xs:text-sm">
             Design that communicates attracts and creates bonds.
           </div>
         </div>
@@ -156,9 +173,9 @@ export default function Carousel({ slides }: CarouselProps) {
         />
 
         {/* button */}
-        <div className="absolute bottom-[4.75rem] left-1/2 flex -translate-x-1/2 flex-col items-center gap-11">
+        <div className="absolute bottom-[4.75rem] left-1/2 flex -translate-x-1/2 flex-col items-center gap-11 max-xs:bottom-[3.25rem]">
           <div>
-            <button className="rounded-full border border-black px-[3.25rem] py-3 font-gelica text-xl transition hover:bg-black hover:text-white">
+            <button className="rounded-full border border-black px-[3.25rem] py-3 font-gelica text-xl transition hover:bg-black hover:text-white max-xs:px-10 max-xs:py-2 max-xs:text-xs">
               Discover our method
             </button>
           </div>
@@ -166,7 +183,7 @@ export default function Carousel({ slides }: CarouselProps) {
 
         {/* carousel  bullets */}
         <div className="absolute bottom-8 left-1/2 flex -translate-x-1/2 flex-col items-center gap-11">
-          <div className="flex gap-2 transition">
+          <div className="flex gap-2 transition max-xs:gap-1">
             {slides.map((_, index) => {
               return (
                 <div
@@ -174,7 +191,7 @@ export default function Carousel({ slides }: CarouselProps) {
                   onClick={() => {
                     setCurrentSlide(index);
                   }}
-                  className={`h-3 w-3 rounded-full bg-black hover:cursor-pointer ${
+                  className={`h-3 w-3 rounded-full bg-black hover:cursor-pointer max-xs:h-1 max-xs:w-1 ${
                     index !== currentSlide && "opacity-50"
                   }`}
                 />
