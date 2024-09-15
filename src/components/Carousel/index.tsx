@@ -18,6 +18,7 @@ export default function Carousel({ slides }: CarouselProps) {
   const [mouseAnimation, setMouseAnimation] = useState<"default" | "moving">(
     "default",
   );
+  const [isTouch, setIsTouch] = useState<boolean>(false);
 
   // carousel logic
   useEffect(() => {
@@ -50,20 +51,20 @@ export default function Carousel({ slides }: CarouselProps) {
   };
 
   // custom cursor logic
+  useEffect(() => {
+    setIsTouch("ontouchstart" in window || navigator.maxTouchPoints > 0);
+  }, []);
+
   const mouseMove = (e: globalThis.MouseEvent) => {
+    if (isTouch) {
+      return;
+    }
+
     setMousePosition({
       x: e.clientX,
       y: e.clientY,
     });
   };
-  // useEffect(() => {
-
-  //
-
-  //   return () => {
-  //
-  //   };
-  // }, []);
 
   const variants: Variants = {
     default: {
@@ -106,31 +107,14 @@ export default function Carousel({ slides }: CarouselProps) {
           className="flex transition duration-300 ease-out"
           style={{ transform: `translateX(-${currentSlide * 100}%)` }}
         >
-          {slides.map((s, i) => {
-            let bg = "";
-
-            switch (i) {
-              case 0:
-                bg = "bg-slate-600";
-                break;
-
-              case 1:
-                bg = "bg-red-700";
-                break;
-
-              case 2:
-                bg = "bg-orange-700";
-                break;
-
-              case 3:
-                bg = "bg-green-700";
-                break;
-            }
-
+          {slides.map((_, i) => {
             return (
               <div
                 key={i}
-                className={`h-[48.25rem] min-w-[100vw] max-xs:h-[28.75rem] ${bg}`}
+                className={`h-[48.25rem] min-w-[100vw] bg-cover bg-center max-xs:h-[28.75rem]`}
+                style={{
+                  backgroundImage: `url(${slides[i]})`,
+                }}
               ></div>
             );
           })}
