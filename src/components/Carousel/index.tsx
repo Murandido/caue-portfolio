@@ -121,7 +121,7 @@ export default function Carousel({ slides }: CarouselProps) {
         </div>
 
         {/* hero */}
-        <div className="min-sw-[33.5rem] absolute top-[4.75rem] flex w-full justify-center">
+        <div className="min-sw-[33.5rem] absolute top-[4.75rem] flex w-full justify-center max-xs:top-12">
           <div className="mx-[11.25rem] w-[33.5rem] text-center text-2xl font-bold uppercase leading-[150%] max-xs:mx-8 max-xs:text-sm">
             Design that communicates attracts and creates bonds.
           </div>
