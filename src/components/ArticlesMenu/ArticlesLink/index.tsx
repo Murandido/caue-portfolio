@@ -13,17 +13,20 @@ export default function ArticlesLink({
   message,
 }: ArticlesLinkProps) {
   return (
-    <Link href={link} className="flex max-w-[31.5rem] flex-col gap-4">
+    <Link
+      href={link}
+      className="group flex max-w-[31.5rem] flex-col rounded-xl border border-[#D9D9D9]"
+    >
       <div className="overflow-hidden rounded-xl">
         <Image
-          className="transition duration-500 ease-in-out hover:scale-125"
+          className="transition duration-500 ease-in-out group-hover:scale-125"
           src={image}
           alt="link image"
           width={504}
           height={648}
         />
       </div>
-      <div className="font-gelica text-xl leading-[150%] max-xs:text-sm">
+      <div className="p-6 font-gelica text-xl leading-[150%] max-xs:text-sm">
         {message}
       </div>
     </Link>
