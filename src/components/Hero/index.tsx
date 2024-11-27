@@ -1,5 +1,3 @@
-import Link from "next/link";
-
 export const IndexHero = () => {
   return (
     <div className="xl:hidden">
@@ -23,18 +21,16 @@ export const IndexHero = () => {
 
 export const ArticlesHero = () => {
   return (
-    <div className="flex h-[25rem] w-full min-w-minimum items-center justify-center bg-[url(https://i.imgur.com/noBYcSn.png)] bg-cover bg-center">
-      <div className="mx-[5.5rem] flex max-w-[41rem] flex-col items-center justify-center gap-4 text-center leading-[150%] max-xs:mx-8">
-        <h1 className="text-[2.5rem] font-bold uppercase max-xs:text-xl">
+    <div className="flex h-[17.5rem] min-w-minimum items-center max-xs:h-[8.75rem]">
+      <div className="mx-[11.25rem] flex w-full justify-between max-xl:mx-[5.5rem] max-xl:flex-col max-xl:gap-6 max-xs:mx-8">
+        <h1 className="text-[2.5rem] font-bold uppercase leading-[150%] max-xs:text-xl">
           Articles
         </h1>
-        <p className="font-gelica text-xl max-xs:text-xs">
+        <p className="max-w-[38.5rem] font-gelica text-xl leading-[150%] max-xs:text-[0.625rem]">
           Here, we have deposited some articles written by{" "}
-          <Link className="underline" href="/about">
-            Cauê Henrique
-          </Link>
-          . We hope they can guide your perception of our work as a brand and
-          interface design studio.
+          <span className="underline">Cauê Henrique</span>. We hope they can
+          guide your perception of our work as a brand and interface design
+          studio.
         </p>
       </div>
     </div>
