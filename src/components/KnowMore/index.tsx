@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function KnowMore() {
   return (
-    <div className="min-w-minimum">
+    <div className="flex min-w-minimum bg-gradient-to-b from-[#F1F1F1]">
       {/* div when the page is bigger than 1280px */}
       <div className="mx-[11.25rem] my-28 flex items-center gap-[11.25rem] max-xl:hidden">
         <div>
