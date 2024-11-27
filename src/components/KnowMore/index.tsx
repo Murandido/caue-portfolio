@@ -1,23 +1,63 @@
+import Image from "next/image";
+import Link from "next/link";
+
 export default function KnowMore() {
   return (
-    <div className="mb-6 flex h-[45rem] w-full min-w-minimum items-center justify-center max-md:h-[19.25rem]">
-      <div className="mx-7 flex h-full w-full items-center justify-center rounded-xl bg-[url(https://i.imgur.com/qlAo1yR.png)] bg-cover max-md:mx-5 max-xs:mx-4">
-        <div className="m-2 flex w-[39.25rem] flex-col items-center justify-center gap-6 max-md:w-auto max-md:gap-4">
-          <h1 className="text-center text-2xl font-bold uppercase leading-[150%] max-md:text-sm">
-            Design is art, but is also human communication.
-          </h1>
-          <p className="text-center font-gelica text-xl leading-[150%] max-md:text-xs">
-            Each human being communicates in their own way. So, how do you know
-            your design was communicating with your target audience? That&apos;s
-            why we are here, to improve your communication!
-          </p>
-          <a
-            className="text-center font-gelica text-xl leading-[150%] underline hover:text-primary-400 max-md:text-xs"
-            href="#"
-          >
-            +Know more about our methodology
-          </a>
+    <div className="min-w-minimum">
+      {/* div when the page is bigger than 1280px */}
+      <div className="mx-[11.25rem] my-28 flex items-center gap-[11.25rem] max-xl:hidden">
+        <div>
+          <Image
+            src="https://i.imgur.com/b6SXkyT.png"
+            alt="A call Image"
+            width={1056}
+            height={720}
+          />
         </div>
+        <div className="flex max-w-[20rem] flex-col items-center gap-6">
+          <h1 className="text-2xl font-bold uppercase leading-[150%]">
+            Need a project? Schedule a call!
+          </h1>
+          <p className="font-gelica text-xl leading-[150%]">
+            Each person communicates uniquely. So, how can you be sure your
+            design is connecting with your ideal audience? Let&apos;s discuss
+            this in a call to ensure your brand communicates in the right way.
+          </p>
+          <Link
+            className="w-full rounded-full border border-[#D9D9D9] py-3 text-center font-gelica text-xl leading-[150%] transition hover:bg-[#D9D9D9]"
+            href={"/budget"}
+          >
+            Schedule a call
+          </Link>
+        </div>
+      </div>
+
+      {/* div when the page is smaller than 1280px */}
+      <div className="mx-[5.5rem] my-16 hidden flex-col items-center gap-8 max-xl:flex max-xs:mx-8 max-xs:my-10 max-xs:gap-5 ">
+        <div className="flex flex-col items-center gap-6 text-center max-xs:gap-3">
+          <h1 className="w-[50%] text-2xl font-bold uppercase leading-[150%] max-xs:w-[70%] max-xs:text-sm">
+            Need a project? Schedule a call!
+          </h1>
+          <p className="font-gelica text-xl leading-[150%] max-xs:text-xs">
+            Each person communicates uniquely. So, how can you be sure your
+            design is connecting with your ideal audience? Let&apos;s discuss
+            this in a call to ensure your brand communicates in the right way.
+          </p>
+        </div>
+        <div>
+          <Image
+            src="https://i.imgur.com/b6SXkyT.png"
+            alt="A call Image"
+            width={1056}
+            height={720}
+          />
+        </div>
+        <Link
+          className="w-full rounded-full border border-[#D9D9D9] py-3 text-center font-gelica text-xl leading-[150%] transition hover:bg-[#D9D9D9] max-xs:py-2 max-xs:text-xs"
+          href={"/budget"}
+        >
+          Schedule a call
+        </Link>
       </div>
     </div>
   );
