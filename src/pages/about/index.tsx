@@ -2,7 +2,7 @@ import { ReactElement } from "react";
 import Head from "next/head";
 import Inner from "@/components/Inner";
 import { AboutHero } from "@/components/Hero";
-import MethodologyStep from "@/components/MethodologyStep";
+import MethodologySteps from "@/components/MethodologySteps";
 import Layout from "@/components/Layout";
 
 export default function About() {
@@ -56,6 +56,11 @@ export default function About() {
                   </p>
                 </div>
               </div>
+            </div>
+            <div>
+              <div></div>
+              <MethodologySteps />
+              <div></div>
             </div>
           </div>
         </div>
