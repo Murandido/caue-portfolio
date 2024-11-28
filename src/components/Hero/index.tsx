@@ -39,7 +39,7 @@ export const ArticlesHero = () => {
 
 export const AboutHero = () => {
   return (
-    <div className="flex h-[17.5rem] min-w-minimum items-center bg-gradient-to-b from-tertiary-300">
+    <div className="flex h-[17.5rem] min-w-minimum items-center bg-gradient-to-b from-tertiary-300 max-xl:h-[10.5rem] max-xs:h-[4.5rem]">
       <div className="mx-[11.25rem] w-full max-xl:mx-[5.5rem] max-xs:mx-8">
         <h1 className="text-[2.5rem] font-bold uppercase leading-[150%] max-xs:text-xl">
           About
