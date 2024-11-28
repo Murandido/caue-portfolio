@@ -39,16 +39,11 @@ export const ArticlesHero = () => {
 
 export const AboutHero = () => {
   return (
-    <div className="flex h-[25rem] min-w-minimum items-center justify-center bg-[url(https://i.imgur.com/5ugXZSq.png)] bg-center">
-      <div className="mx-[5.5rem] flex max-w-[41rem] flex-col items-center justify-center gap-8 leading-[150%] max-xs:mx-8">
-        <h1 className="text-[2.5rem] font-bold uppercase max-xs:text-xl">
+    <div className="flex h-[17.5rem] min-w-minimum items-center bg-gradient-to-b from-[#F1F1F1]">
+      <div className="mx-[11.25rem] w-full max-xl:mx-[5.5rem] max-xs:mx-8">
+        <h1 className="text-[2.5rem] font-bold uppercase leading-[150%] max-xs:text-xl">
           About
         </h1>
-        <p className="text-center font-gelica text-xl max-xs:text-xs">
-          Our process always begins with a video call to understand your brand
-          and how our work can enhance it. Get to know who &apos;Cauê
-          Henrique&apos; is and how our methodology can assist you:
-        </p>
       </div>
     </div>
   );
