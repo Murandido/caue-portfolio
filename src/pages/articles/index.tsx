@@ -16,7 +16,7 @@ export default function Articles() {
         />
       </Head>
       <Inner>
-        <div className="bg-gradient-to-b from-[#F1F1F1]">
+        <div className="bg-gradient-to-b from-tertiary-300">
           <ArticlesHero />
           <ArticlesMenu />
         </div>

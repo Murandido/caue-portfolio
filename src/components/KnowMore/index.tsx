@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function KnowMore() {
   return (
-    <div className="flex min-w-minimum bg-gradient-to-b from-[#F1F1F1]">
+    <div className="flex min-w-minimum bg-gradient-to-b from-tertiary-300">
       {/* div when the page is bigger than 1280px */}
       <div className="mx-[11.25rem] my-28 flex items-center gap-[11.25rem] max-xl:hidden">
         <div>
@@ -24,7 +24,7 @@ export default function KnowMore() {
             this in a call to ensure your brand communicates in the right way.
           </p>
           <Link
-            className="w-full rounded-full border border-[#D9D9D9] py-3 text-center font-gelica text-xl leading-[150%] transition hover:bg-[#D9D9D9]"
+            className="w-full rounded-full border border-tertiary-400 py-3 text-center font-gelica text-xl leading-[150%] transition hover:bg-tertiary-400"
             href={"/budget"}
           >
             Schedule a call
@@ -53,7 +53,7 @@ export default function KnowMore() {
           />
         </div>
         <Link
-          className="w-full rounded-full border border-[#D9D9D9] py-3 text-center font-gelica text-xl leading-[150%] transition hover:bg-[#D9D9D9] max-xs:py-2 max-xs:text-xs"
+          className="w-full rounded-full border border-tertiary-400 py-3 text-center font-gelica text-xl leading-[150%] transition hover:bg-tertiary-400 max-xs:py-2 max-xs:text-xs"
           href={"/budget"}
         >
           Schedule a call
