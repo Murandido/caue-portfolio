@@ -23,6 +23,7 @@ const config: Config = {
           700: "#be9423",
           800: "#98761c",
           900: "#725915",
+          suporte: "#FEF0CB",
         },
         secondary: {
           50: "#fffefa",

@@ -1,17 +1,45 @@
-interface MethodologyStepProps {
-  title: string;
-  desc: string;
+import { motion } from "framer-motion";
+import { useState } from "react";
+
+interface MethodologyStepsProps {
+  steps: {
+    number: number;
+    ordinalSymbol: string;
+    label: string;
+    text: string;
+  }[];
 }
 
-export default function MethodologyStep({ title, desc }: MethodologyStepProps) {
+export default function MethodologyStep({ steps }: MethodologyStepsProps) {
+  const [selectedStep, setSelectedSetp] = useState(steps[0]);
+
   return (
-    <div className="w-full text-xl max-xs:text-xs">
-      <div className="flex h-16 items-center justify-center rounded-t-xl bg-primary-400 font-bold uppercase max-xs:h-8">
-        <h1>{title}</h1>
-      </div>
-      <div className="rounded-b-xl bg-secondary-300 font-gelica leading-[150%]">
-        <p className="px-[8.25rem] py-20 max-xl:px-16 max-xs:p-4">{desc}</p>
-      </div>
+    <div className="overflow-hidden rounded-lg bg-primary-suporte">
+      <nav>
+        <ul className="flex border-b border-primary-400">
+          {steps.map((item) => (
+            <li
+              key={item.label}
+              className="relative flex h-24 w-full select-none items-center justify-center text-xl font-bold leading-[150%]"
+              onClick={() => setSelectedSetp(item)}
+            >
+              {item === selectedStep && (
+                <motion.div
+                  className="absolute h-full w-full bg-primary-400"
+                  layoutId="bg"
+                  transition={{ ease: [0.21, 1.42, 0.85, 1.02], duration: 0.5 }}
+                />
+              )}
+              <span className="z-10">
+                {item.number}
+                <sup className="underline">{item.ordinalSymbol}</sup>{" "}
+                {item.label}
+              </span>
+            </li>
+          ))}
+        </ul>
+      </nav>
+      <div></div>
     </div>
   );
 }

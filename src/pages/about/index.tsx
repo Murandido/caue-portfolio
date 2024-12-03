@@ -6,6 +6,39 @@ import MethodologySteps from "@/components/MethodologySteps";
 import Layout from "@/components/Layout";
 
 export default function About() {
+  const steps = [
+    {
+      number: 1,
+      ordinalSymbol: "st",
+      label: "IMERSSION",
+      text: 'An experience to "immerse" oneself in the process and comprehend how design will position your brand in the market. Analyses that will assist us in understanding the purpose, the process, and the "reason for being" of your brand. We will analyze who your target audience is, who the competitors are, and how your brand can stand out in the market.',
+    },
+    {
+      number: 2,
+      ordinalSymbol: "nd",
+      label: "TUNE",
+      text: "A collaboration to centralize, balance, and identify the exact path of our journey. A report will be presented summarizing all analyses and findings up to this point. We will engage in an activity to define the visual direction, align expectations, and strategically guide our efforts.",
+    },
+    {
+      number: 3,
+      ordinalSymbol: "rd",
+      label: "REASON",
+      text: "A flow of ideas materializing effective solutions in shapes, colors, typography, and supporting elements. It's time to bring to life the strategies outlined in previous stages. Through sketches, we will generate a set of ideas aligned with the brand guidelines. Subsequently, we will filter the best options and refine them until we achieve the ideal format.",
+    },
+    {
+      number: 4,
+      ordinalSymbol: "th",
+      label: "MANIFEST",
+      text: "The grand moment to present the results with brand applications and the creative process. With the participation of all partners, we will recap the project's development from the beginning to the central idea. This will enable an understanding of the functionalities and advantages of the new visual system.",
+    },
+    {
+      number: 5,
+      ordinalSymbol: "th",
+      label: "EPILOGUE",
+      text: "Conclusion and file delivery, including the logo and its versions, font, graphic elements, and a manual. We've prepared a package with all deliverables, accompanied by an essential guide for the internal design team and partners. This document provides crucial information for the accurate reproduction of the brand, safeguarding its fundamental characteristics.",
+    },
+  ];
+
   return (
     <>
       <Head>
@@ -57,10 +90,17 @@ export default function About() {
                 </div>
               </div>
             </div>
-            <div>
-              <div></div>
-              <MethodologySteps />
-              <div></div>
+            <div className="mb-24 mt-12 flex flex-col gap-6">
+              <div className="flex justify-center">
+                <h1 className="text-2xl font-bold uppercase">
+                  Get to know our five steps methodology
+                </h1>
+              </div>
+              <MethodologySteps steps={steps} />
+              <div>
+                <div></div>
+                <div></div>
+              </div>
             </div>
           </div>
         </div>
