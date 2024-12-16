@@ -79,7 +79,7 @@ export default function MethodologyStep({ steps }: MethodologyStepsProps) {
   };
 
   return (
-    <div className="flex flex-col overflow-hidden rounded-lg max-2xl:gap-1">
+    <div className="flex min-w-minimum flex-col overflow-hidden rounded-lg max-2xl:gap-1">
       <nav className="">
         <ul className="flex overflow-hidden max-2xl:gap-1 max-2xl:rounded-lg 2xl:border-b 2xl:border-primary-400">
           {steps.map((item) => (

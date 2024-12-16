@@ -52,7 +52,7 @@ export default function About() {
         <AboutHero />
         <div className="min-w-minimum">
           <div className="mx-[11.25rem] max-xl:mx-[5.5rem] max-xs:mx-8">
-            <div className="rounded-lg bg-tertiary-300">
+            <div className="min-w-minimum rounded-lg bg-tertiary-300">
               <div className="p-20 max-xs:p-8">
                 <div className="flex flex-col gap-4 border-b border-tertiary-400 pb-[4.5rem] max-xs:gap-2 max-xs:pb-6">
                   <h1 className="text-2xl font-bold uppercase leading-[150%] max-xs:text-xs">
@@ -91,15 +91,40 @@ export default function About() {
               </div>
             </div>
             <div className="mb-24 mt-12 flex flex-col gap-6 max-xs:mb-12 max-xs:mt-6 max-xs:gap-3">
-              <div className="flex justify-center">
+              <div className="flex min-w-minimum justify-center">
                 <h1 className="text-center text-2xl font-bold uppercase max-xs:text-xs">
                   Get to know our five steps methodology
                 </h1>
               </div>
               <MethodologySteps steps={steps} />
-              <div>
-                <div></div>
-                <div></div>
+              <div className="flex min-w-minimum gap-6 max-xl:flex-wrap max-xs:gap-3">
+                <div className="flex flex-col gap-4 rounded-lg bg-tertiary-300 p-20 max-xs:gap-2 max-xs:p-8">
+                  <h1 className="text-2xl font-bold uppercase leading-[150%] max-xs:text-xs">
+                    Methodology for brands that want to grow
+                  </h1>
+                  <p className="font-gelica text-xl leading-[150%] max-xs:text-[0.625rem]">
+                    Methodology, that&apos;s the right word to describe the path
+                    to success, especially in identity design. It&apos;s no
+                    coincidence that this is the design area most valued by
+                    major brands. We hope this has been enough to guide your
+                    perception of our work and make clear the importance of
+                    visual identity for your company.
+                  </p>
+                </div>
+                <div className="flex flex-col gap-4 rounded-lg bg-tertiary-300 p-20 max-xs:gap-2 max-xs:p-8">
+                  <h1 className="text-2xl font-bold uppercase leading-[150%] max-xs:text-xs">
+                    Partners and plus
+                  </h1>
+                  <p className="font-gelica text-xl leading-[150%] max-xs:text-[0.625rem]">
+                    If your project extends into the digital web sphere, we are
+                    ready to bring your online vision to life. In partnership
+                    with <span className="underline">Studio Murandido</span>, a
+                    full-stack programming team, we offer website solutions
+                    capable of enhancing your online presence effectively. Count
+                    on us to transform your identity not only in design but also
+                    into a distinctive digital presence.
+                  </p>
+                </div>
               </div>
             </div>
           </div>
