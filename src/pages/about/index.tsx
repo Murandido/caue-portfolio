@@ -90,9 +90,9 @@ export default function About() {
                 </div>
               </div>
             </div>
-            <div className="mb-24 mt-12 flex flex-col gap-6">
+            <div className="mb-24 mt-12 flex flex-col gap-6 max-xs:mb-12 max-xs:mt-6 max-xs:gap-3">
               <div className="flex justify-center">
-                <h1 className="text-2xl font-bold uppercase">
+                <h1 className="text-center text-2xl font-bold uppercase max-xs:text-xs">
                   Get to know our five steps methodology
                 </h1>
               </div>

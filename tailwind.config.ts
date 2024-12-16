@@ -54,6 +54,7 @@ const config: Config = {
         xs: "512px",
         xxs: "384px",
         minimum: "224px",
+        steps: "300px",
       },
       minWidth: {
         minimum: "224px",

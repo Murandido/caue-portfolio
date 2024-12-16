@@ -17,7 +17,7 @@ export default function Header() {
   }, [setIsMenuClicked, dynamicRoute]);
 
   return (
-    <header className="fixed top-0 z-[1] flex h-[8.5rem] w-full min-w-minimum items-center bg-white font-gelica max-xs:h-14">
+    <header className="fixed top-0 z-20 flex h-[8.5rem] w-full min-w-minimum items-center bg-white font-gelica max-xs:h-14">
       <div className="mx-[11.25rem] flex flex-grow justify-between max-xl:mx-[5.5rem] max-xs:mx-8">
         {/* logo */}
         <div>

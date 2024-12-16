@@ -16,7 +16,7 @@ export default function MethodologyStep({ steps }: MethodologyStepsProps) {
 
   const controls = useStepControls(steps);
 
-  const handleNavClick = (nextStep: any) => {
+  const handleNavClick = (nextStep: MethodologyStepsProps["steps"][0]) => {
     // se o nextStep for igual ao currentStep, não faça nada
     if (nextStep.number === currentStep.number) {
       return;
@@ -37,7 +37,7 @@ export default function MethodologyStep({ steps }: MethodologyStepsProps) {
         forStep.number === currentStep.number &&
         nextStep.number < currentStep.number
       ) {
-        controls[forStep.label].start({ opacity: 1, y: "14.5rem" });
+        controls[forStep.label].start({ opacity: 1, y: "41rem" });
         continue;
       }
 
@@ -69,7 +69,7 @@ export default function MethodologyStep({ steps }: MethodologyStepsProps) {
 
       // se o forStep for maior que o nextStep, então sete para baixo e visível
       if (forStep.number > nextStep.number) {
-        controls[forStep.label].set({ opacity: 1, y: "14.5rem" });
+        controls[forStep.label].set({ opacity: 1, y: "41rem" });
         continue;
       }
     }
@@ -79,13 +79,13 @@ export default function MethodologyStep({ steps }: MethodologyStepsProps) {
   };
 
   return (
-    <div className="overflow-hidden rounded-lg bg-primary-suporte">
-      <nav>
-        <ul className="flex border-b border-primary-400">
+    <div className="flex flex-col overflow-hidden rounded-lg max-2xl:gap-1">
+      <nav className="">
+        <ul className="flex overflow-hidden max-2xl:gap-1 max-2xl:rounded-lg 2xl:border-b 2xl:border-primary-400">
           {steps.map((item) => (
             <li
               key={item.label}
-              className="relative flex h-24 w-full select-none items-center justify-center text-xl font-bold leading-[150%]"
+              className="relative flex h-24 w-full select-none items-center justify-center bg-primary-suporte text-xl font-bold leading-[150%] max-xs:h-8 max-xs:text-[0.625rem]"
               onClick={() => handleNavClick(item)}
             >
               {item === currentStep && (
@@ -98,22 +98,27 @@ export default function MethodologyStep({ steps }: MethodologyStepsProps) {
               <span className="z-10">
                 {item.number}
                 <sup className="underline">{item.ordinalSymbol}</sup>{" "}
-                {item.label}
+                <span className="max-2xl:hidden">{item.label}</span>
               </span>
             </li>
           ))}
         </ul>
       </nav>
-      <div className="relative flex h-[22.125rem] items-center justify-center">
+      <div className="relative flex h-[22.125rem] items-center justify-center bg-primary-suporte max-2xl:h-[32.875rem] max-2xl:rounded-lg max-sm:h-[42rem] max-xs:h-[15.125rem] max-steps:h-[24rem]">
         {steps.map((item) => (
           <motion.div
-            className="absolute mx-20 font-gelica text-xl"
+            className="absolute mx-20 flex flex-col gap-4 font-gelica text-xl max-xs:mx-8 max-xs:gap-2"
             key={item.label}
-            initial={item.number !== 1 ? { y: "14.5rem" } : { y: 0 }}
+            initial={item.number !== 1 ? { y: "41rem" } : { y: 0 }}
             animate={controls[item.label]}
-            transition={{ ease: [0.21, 1.42, 0.85, 1.02], duration: 0.5 }}
+            transition={{ type: "spring", bounce: 0.15, duration: 1 }}
           >
-            {item.text}
+            <div className="font-syncopate text-2xl font-bold uppercase max-xs:text-xs 2xl:hidden">
+              {item.label}
+            </div>
+            <div className="leading-[150%] max-xs:text-[0.625rem]">
+              {item.text}
+            </div>
           </motion.div>
         ))}
       </div>
