@@ -63,12 +63,12 @@ export const BudgetHero = () => {
 
 export const CommonQuestionsHero = () => {
   return (
-    <div className="flex h-[25rem] min-w-minimum items-center justify-center bg-[url(https://i.imgur.com/QCxwANq.png)] bg-center">
-      <div className="mx-[5.5rem] flex max-w-[41rem] flex-col items-center justify-center gap-8 leading-[150%] max-xs:mx-8">
-        <h1 className="text-center text-[2.5rem] font-bold uppercase leading-[150%] max-xs:text-xl">
+    <div className="min-w-minimum bg-gradient-to-b from-tertiary-300">
+      <div className="mx-[11.25rem] flex items-center justify-between gap-6 py-24 max-xl:mx-[5.5rem] max-xl:flex-col max-xl:items-start max-xl:py-14 max-xs:mx-8 max-xs:py-6">
+        <h1 className="text-[2.5rem] font-bold uppercase leading-[150%] max-xs:text-xl">
           Common Questions
         </h1>
-        <p className="text-center font-gelica text-xl max-xs:text-xs">
+        <p className="basis-2/5 font-gelica text-xl leading-[158%] max-xs:text-[0.625rem]">
           To simplify our work and enhance our clients&apos; understanding, this
           page has been created with the most common questions about our
           services.
