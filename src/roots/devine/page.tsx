@@ -1,4 +1,3 @@
-import Layout from "@/components/Layout";
 import WorkHero from "@/components/WorkHero";
 import { getDictionary } from "@/utils/getDictionary";
 import { Metadata } from "next";
@@ -241,7 +240,3 @@ export default async function Devine({ locale }: { locale: RouteLocale}) {
     </div>
   );
 }
-
-Devine.getLayout = function getLayout(page: ReactElement) {
-  return <Layout>{page}</Layout>;
-};
