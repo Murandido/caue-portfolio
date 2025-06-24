@@ -6,7 +6,7 @@ export default function Layout({ children }: { children: ReactNode }) {
   return (
     <>
       <Header />
-      <main className="mt-[8.5rem] max-xs:mt-14">{children}</main>
+      <main className="mt-34 max-xs:mt-14">{children}</main>
       <Footer />
     </>
   );

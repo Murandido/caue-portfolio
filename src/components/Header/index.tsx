@@ -2,28 +2,33 @@
 import { useEffect, useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
-import { useRouter } from "next/router";
 import HamburgerButton from "./HamburgerButton";
 import CompactNavbar from "../CompactNavbar";
 
 import caueHenriqueLogoSVG from "../../assets/logos/caueHenriqueLogo.svg";
+import { useRouter } from "next/navigation";
+import { Links } from "@/roots/layout";
 
-export default function Header() {
+interface HeaderProps {
+  links: Links,
+}
+
+export default function Header({ links }: HeaderProps) {
   const [isMenuClicked, setIsMenuClicked] = useState<boolean>(false);
-  const dynamicRoute = useRouter().asPath;
+  const dynamicRoute = useRouter();
 
   useEffect(() => {
     setIsMenuClicked(false);
   }, [setIsMenuClicked, dynamicRoute]);
 
   return (
-    <header className="fixed top-0 z-20 flex h-[8.5rem] w-full min-w-minimum items-center bg-white font-gelica max-xs:h-14">
-      <div className="mx-[11.25rem] flex flex-grow justify-between max-xl:mx-[5.5rem] max-xs:mx-8">
+    <header className="fixed top-0 z-20 flex h-34 w-full min-w-minimum items-center bg-white font-gelica max-xs:h-14">
+      <div className="mx-45 flex grow justify-between max-xl:mx-22 max-xs:mx-8">
         {/* logo */}
         <div>
-          <Link href="/">
+          <Link href={links.index.href}>
             <Image
-              className="max-xs:h-6 max-xs:w-[4.25rem]"
+              className="max-xs:h-6 max-xs:w-17"
               src={caueHenriqueLogoSVG}
               alt="caue henrique logo"
             />
@@ -31,32 +36,32 @@ export default function Header() {
         </div>
         {/* navbar */}
         <nav className="flex items-center justify-center gap-12 text-xl max-xl:hidden">
-          <Link className="hover:text-primary-400 hover:underline" href="/">
-            Home
+          <Link className="hover:text-primary-400 hover:underline" href={links.index.href}>
+            {links.index.name}
           </Link>
           <Link
             className="hover:text-primary-400 hover:underline"
-            href="/articles"
+            href={links.articles.href}
           >
-            Articles
+            {links.articles.name}
           </Link>
           <Link
             className="hover:text-primary-400 hover:underline"
-            href="/about"
+            href={links.about.href}
           >
-            About
+            {links.about.name}
           </Link>
           <Link
             className="hover:text-primary-400 hover:underline"
-            href="/budget"
+            href={links.budget.href}
           >
-            Budget
+            {links.budget.name}
           </Link>
           <Link
             className="hover:text-primary-400 hover:underline"
-            href="/commonquestions"
+            href={links.commonquestions.href}
           >
-            Common questions
+            {links.commonquestions.name}
           </Link>
         </nav>
         <HamburgerButton state={[isMenuClicked, setIsMenuClicked]} />

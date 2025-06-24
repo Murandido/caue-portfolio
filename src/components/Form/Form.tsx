@@ -1,6 +1,7 @@
+"use client"
 import { useEffect } from "react";
 
-const Form = () => {
+const Form = ({ translation }: { translation: any }) => {
   useEffect(() => {
     const bodyElement = document.querySelector("body");
     const existingScript = document.querySelector("#respondi_src");
@@ -18,7 +19,7 @@ const Form = () => {
     <div
       data-respondi-container=""
       data-respondi-mode="regular"
-      data-respondi-src="https://form.respondi.app/8wo7tGyQ"
+      data-respondi-src={translation.formLink}
       data-respondi-width="100%"
       data-respondi-height="100%"
     ></div>

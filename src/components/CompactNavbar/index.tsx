@@ -16,11 +16,11 @@ export default function CompactNavbar({ isMenuClicked }: CompactNavbarProps) {
   const navClasses = clsx(
     `${
       isMenuClicked ? "active" : "inactive"
-    } flex-start absolute left-0 top-[8.5rem] flex h-[calc(100vh-8.5rem)] w-full items-center overflow-auto border-t bg-white text-xl leading-[150%] max-xs:top-14 max-xs:h-[calc(100vh-3.5rem)] xl:hidden`,
+    } flex-start absolute left-0 top-34 flex h-[calc(100vh-8.5rem)] w-full items-center overflow-auto border-t bg-white text-xl leading-[150%] max-xs:top-14 max-xs:h-[calc(100vh-3.5rem)] xl:hidden`,
   );
 
   const navItemClasses = clsx(
-    "mx-[5.5rem] flex justify-between border-b py-5 max-xs:mx-8",
+    "mx-22 flex justify-between border-b py-5 max-xs:mx-8",
   );
 
   return (

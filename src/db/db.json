@@ -1,0 +1,454 @@
+{
+  "dictionaries": [
+    {
+      "locale": "pt",
+      "value": {
+        "index": {
+          "title": "Cauê Henrique | Estúdio de design de marca - Identidade visual",
+          "description": "Se o seu design não fala com o público certo, para quem ele está contando sua história?",
+          "carousel": {
+            "title": "DESIGN QUE COMUNICA ATRAI E CRIA LAÇOS.",
+            "button": "Conheça nosso método"
+          },
+          "knowMore": {
+            "title": "Precisa de um projeto? Agende uma reunião!",
+            "text": "Cada pessoa se comunica de forma única. Então, como você pode ter certeza de que seu design está conectando com seu público ideal? Vamos discutir isso em uma ligação para garantir que sua marca se comunique da maneira certa.",
+            "button": "Agendar reunião"
+          }
+        },
+        "reallimpeza": {
+          "title": "Real Limpeza | Cauê Henrique estúdio de design de marcas",
+          "description": "Identidade visual desenvolvida para a Real Limpeza, marca que atende a uma ampla variedade de clientes no setor de limpeza em Goiás.",
+          "page": {
+            "subtitle": "Qualidade com responsabilidade",
+            "text1": "A Real Limpeza é uma empresa especializada em serviços de limpeza residencial, comercial e industrial, incluindo limpeza de vidros, fachadas e pós-construção. Por trás do objetivo, o re-design teve como direcionamento; uma abordagem mais introvertida, mas que não seja séria demais. Trabalhar nesse meio-termo foi essencial, considerando que a marca atende B2B e B2C. Além das decisões tomadas pelo público amplo, um dos objetivos foi de modernizar a empresa, de forma chamativa, atraente e atual.",
+            "text2": "Por conta de uma atividade bem presente no Instagram, foi necessário criar alguma solução para aplicações rápidas e complementares nos designs da marca. Por isso, foi criado um padrão de stickers com fácil reprodução. Possibilitando complementar alguns posts e/ou aplicações necessárias.",
+            "text3": "O gradiente solucionou não só um, como dois problemas em uma cajadada só: se comunicar com público amplo e acrescentar a característica \"chamativa\", como exigido na fase de Sintonia.",
+            "text4": "Inicialmente, durante a etapa Razão, o gradiente consistia apenas em tons de azul. No entanto, para atender à necessidade de ser mais chamativo, foi determinado adicionar a cor laranja, proporcionando o destaque que faltava.",
+            "text5": "O redesign da Real Limpeza foi essencial por definir a nova fase da empresa. Guiando na renovação da marca, não só de forma visual, como em características não tangíveis dessa nova etapa."
+          }
+        },
+        "devine": {
+          "title": "Devine | Cauê Henrique estúdio de design de marcas",
+          "description": "Identidade visual desenvolvida para a Devine, marca que atende a uma ampla variedade de clientes no setor de alfajores.",
+          "page": {
+            "subtitle": "Every bite, a divine experience.",
+            "text1": "Devine é uma confeitaria que oferece uma ampla variedade de sabores de alfajores, destacando-se por sua abordagem extrovertida, criativa e divertida. A identidade visual da Devine foi criada para refletir essas características marcantes e diferenciar-se de outras confeitarias através de sua paleta de cores vibrante, considerando a ausência de concorrentes diretos relevantes. Utilizando uma comunicação visual distintiva e vibrante, a Devine visa atrair e fidelizar clientes, criando uma conexão duradoura baseada na paixão por seus deliciosos e variados alfajores.",
+            "text2": "O padrão da Devine inclui duas formas principais: estrelas e xadrez. As estrelas são usadas para destacar elementos visuais em imagens ou designs, enquanto o xadrez combina quadrados e estrelas para criar um padrão que preenche o design. Esses padrões refletem os valores e a essência da marca, sendo extrovertida, criativa e divertida. A paleta de cores vibrantes e a repetição dos elementos realçam a energia única e a criatividade da Devine.",
+            "text3": "O padrão de imagem da Devine incorpora um sutil efeito roxo em suas fotos, integrando-as à identidade visual vibrante da marca. Esse toque distinto não apenas complementa, mas também reforça a energia e a criatividade que definem a Devine, garantindo consistência e impacto em todas as comunicações visuais."
+          }
+        },
+        "xchango": {
+          "title": "Xchango | Cauê Henrique estúdio de design de marcas",
+          "description": "Identidade visual desenvolvida para o Xchango, plataforma feita para facilitar investimentos em câmbio.",
+          "page": {
+            "subtitle": "Mantenha o controle sem esforço",
+            "text1": "Xchango é uma plataforma revolucionária projetada para facilitar investimentos em moedas, atendendo tanto aos iniciantes que desejam começar a investir e precisam de orientação, quanto aos investidores experientes que buscam simplificar suas estratégias de investimento. Sua missão é tornar os investimentos acessíveis e seguros, permitindo o acompanhamento preciso das flutuações cambiais e fornecendo atualizações constantes sobre a valorização de moedas específicas. Através de atualizações por email e pelo site, Xchango mantém os usuários informados e prontos para aproveitar as melhores oportunidades de transação.",
+            "text2": "Os ícones do Xchango foram criados com bordas chanfradas e uma estética robusta, incorporando cantos afiados para uma aparência distintiva e impactante. Projetados para complementar e se destacar, eles estabeleceram uma identidade visual coesa que equilibra uma imagem amigável com uma postura profissional, permitindo seu uso tanto como ícones quanto como elementos em composições de design.",
+            "text3": "O padrão principal do Xchango consiste em uma série de meios quadrados amarelos e laranjas, que se unem para formar faixas, ziguezagues e elementos figurativos. O padrão é projetado para ser versátil, capaz de criar composições simples, como faixas ou fundos, assim como objetos mais complexos, como coroas ou corações. O conceito permite liberdade criativa para elaborar formas atraentes e diversas que complementam a identidade visual do Xchango.",
+            "text4": "Mais desenvolvimentos web em breve."
+          }
+        },
+        "murandido": {
+          "title": "Murandido | Cauê Henrique estúdio de design de marcas",
+          "description": "Identidade visual desenvolvida para o Murandido, programação fullstack.",
+          "page": {
+            "subtitle": "Tornando ideias em realidades da nova geração.",
+            "text1": "Murandido é um programador Full-Stack, o que significa que ele trabalha em todos os aspectos do desenvolvimento de sites e aplicativos. Ele pode lidar com tudo, desde a aparência do site até o que acontece nos bastidores. Com experiência em desenvolvimento web desde 2020, ele começou sua jornada com HTML e CSS, progredindo rapidamente para PHP e JavaScript, e se especializando em React, NextJS, NodeJS e PHP. Ele também possui conhecimento em C#, Java, C++, Rust, React Native e Expo para desenvolvimento móvel.",
+            "text2": "Considerando a presença da marca no site, foi necessário criar uma solução complementar para os designs da marca. Para atender a essa demanda, foi desenvolvido um padrão de adesivos facilmente reproduzíveis. Esses adesivos permitem a complementação prática e eficiente de diversos designs e outras aplicações.",
+            "text3": "A identidade de Murandido foi centrada no website, com aplicações projetadas especificamente para este fim e criadas através da plataforma de design de websites Figma. Com essa ideia em mente, uma combinação de elementos foi desenvolvida, incluindo gradientes e efeitos de vidro.",
+            "text4": "O conceito deste padrão é permitir movimentos dinâmicos dentro do website, destacando e valorizando não apenas a plataforma Murandido, mas também sua capacidade de criar websites que harmonizam funcionalidade e estética de forma distintiva."
+          }
+        },
+        "articles": {
+          "title": "Artigos | Estúdio Cauê Henrique",
+          "description": "Não há forma mais eficaz de demonstrar conhecimento do que por meio de artigos. Venha conhecer nossos estudos de identidade visual.",
+          "page": {
+            "title": "ARTIGOS",
+            "text1": "Aqui, depositamos alguns artigos escritos por ",
+            "underline": "Cauê Henrique",
+            "text2": ". Esperamos que eles possam orientar sua percepção ao nosso trabalho como um estúdio de design de marcas e interface.",
+            "subtext": "Beyond the Computer: The Creative Process in Logo Design"
+          }
+        },
+        "about": {
+          "title": "Sobre | Estúdio Cauê Henrique",
+          "description": "É sobre criar soluções criativas para marcas que querem se diferenciar no cenário mercadológico.",
+          "page": {
+            "title": "SOBRE",
+            "subtitle1": "somos um eStúdio de design de marcas que acredita na conexão humana.",
+            "text1": "Acreditamos no design humanizado, que, além de se conectar com o estilo do público, cria conexões duradouras com os clientes. Entendemos que cada ser humano se comunica e vive de uma forma, e com essa visão em mente, criamos identidades visuais que atraem o público certo. Através de diversos estudos acerca da sua marca, criamos designs que se expressam da forma atrativa para as pessoas certas.",
+            "subtitle2": "Quem é cauê Henrique?",
+            "text2": "Apaixonado pela arte e pelos seus próprios estudos, Cauê Henrique é designer de marcas e interface. Ele descobriu essa sua paixão após, por influência do pai, iniciar um curso de design gráfico ainda com 14 anos. Essa influência não veio do nada, seu pai só decidiu o influenciar após ver o potencial que Cauê tinha quando, por conta própria, decidiu criar uma logo para o novo empreendimento do pai. Agora, como diretor de arte desse estúdio, transforma estudos em identidades memoráveis e que se comunicam com o público alvo. Venha descobrir como funciona as 5 etapas da sua metodologia.",
+            "subtitle3": "Venha conhecer as 5 etapas da nossa metodologia",
+            "stepNumber1": "1",
+            "stepOrdinalSymbol1": "o",
+            "stepTitle1": "IMERSÃO",
+            "stepText1": "Uma experiência para se \"imergir\" no processo e compreender como o design posicionará sua marca no mercado. Análises que nos ajudarão a entender o propósito, o processo e a \"razão de ser\" de sua marca. Analisaremos quem é o seu público-alvo, quem são os concorrentes e como sua marca pode se destacar no mercado.",
+            "stepNumber2": "2",
+            "stepOrdinalSymbol2": "o",
+            "stepTitle2": "SINTONIA",
+            "stepText2": "Uma colaboração para centralizar, equilibrar e identificar o caminho exato de nossa jornada. Será apresentado um relatório de todas as análises e descobertas até este ponto. Participaremos de uma atividade para definir a direção visual, alinhar expectativas e orientar estrategicamente nossos esforços.",
+            "stepNumber3": "3",
+            "stepOrdinalSymbol3": "o",
+            "stepTitle3": "RAZÃO",
+            "stepText3": "Um fluxo de Ideias concretizando soluções eficazes em formas, cores, tipografia e elementos de apoio. É hora de dar vida às estratégias delineadas nas etapas anteriores. Através de esboços, geraremos um conjunto de ideias alinhadas com as diretrizes da marca. Posteriormente, filtraremos as melhores opções e as refinaremos até alcançarmos o formato ideal.",
+            "stepNumber4": "4",
+            "stepOrdinalSymbol4": "o",
+            "stepTitle4": "MANIFESTO",
+            "stepText4": "O grande momento para apresentar os resultados com aplicações da marca e o processo criativo. Com a participação de todos os parceiros, recapitularemos o desenvolvimento do projeto desde o início até a ideia central. Isso permitirá entender as funcionalidades e vantagens do novo sistema visual.",
+            "stepNumber5": "5",
+            "stepTitle5": "EPÍLOGO",
+            "stepText5": "Conclusão e entrega de arquivos, incluindo o logo e suas versões, fonte, elementos gráficos e um manual. Preparamos um pacote com todos os entregáveis, acompanhado de um guia essencial para a equipe de design interna e parceiros. Este documento fornece informações cruciais para a reprodução precisa da marca, salvaguardando suas características fundamentais.",
+            "subtitle4": "metodologia para marcas que querem crescer.",
+            "text3": "Metodologia, essa é palavra certa para descrever o caminho para o sucesso, especialmente no design de identidade. Não é por acaso que essa é a área do design em que as grandes marcas mais valorizam. Esperamos que isso tenha sido o suficiente para orientar a sua percepção em relação ao nosso trabalho e que fique claro a importância da identidade visual para sua empresa.",
+            "subtitle5": "parceria a mais",
+            "text4": "Caso o seu projeto se estenda para a esfera webdigital, estamos prontos para dar vida à sua visão online. Em parceria com o ",
+            "underline": "Studio Murandido",
+            "text5": ", programação fullstack, oferecemos soluções de site capazes de potencializar a sua presença online de forma eficaz. Conte conosco para transformar sua identidade não apenas em design, mas também em uma presença digital marcante."
+          }
+        },
+        "budget": {
+          "title": "Orçamento | Estúdio Cauê Henrique",
+          "description": "Vamos marcar uma chamada de vídeo para analisar o projeto e potencializar a comunicação visual da sua marca",
+          "page": {
+            "title": "ORÇAMENTO",
+            "subtitle": "Transformando desafios em oportunidades",
+            "text": "Vamos agendar uma chamada de vídeo para discutir o projeto e aprimorar a comunicação visual da sua empresa!",
+            "formLink": "https://form.respondi.app/b583EutI"
+          }
+        },
+        "commonquestions": {
+          "title": "Perguntas frequentes | Estúdio Cauê Henrique",
+          "description": "Para simplificar nosso trabalho e aprimorar o entendimento de nossos clientes, esta página foi criada com as perguntas mais comuns sobre nossos serviços e identidade visual.",
+          "page": {
+            "title": "PERGUNTAS FREQUENTES",
+            "text": "Para simplificar nosso trabalho e aprimorar o entendimento de nossos clientes, esta página foi criada com as perguntas mais comuns sobre nossos serviços.",
+            "questions": {
+              "1": {
+                "question": "O que é Identidade Visual?",
+                "text": "Identidade Visual é um conjunto de elementos que expressam visualmente a essência de uma empresa, pessoa, serviço ou evento. Composto por cores, tipografia e formas específicas, gira em torno do logotipo como elemento central, servindo de base para todos os materiais relacionados."
+              },
+              "2": {
+                "question": "Por que investir em Identidade Visual?",
+                "text1": "Semelhante a um indivíduo, uma empresa precisa de uma identidade própria que a diferencie e a torne única. Isso não apenas inspira confiança no cliente, como também facilita a memorização e identificação da marca em diversos pontos de contato, como cartões de visita, sacolas, embalagens, papéis timbrados, envelopes, entre outros. Abaixo, destacamos oito motivos pelos quais investir em design é crucial para o sucesso da sua empresa:",
+                "list": {
+                  "1": {
+                    "title": "Agrega valor: ",
+                    "text": "Marcas com design interessante se destacam da concorrência, permitindo preços com maiores margens de lucro."
+                  },
+                  "2": {
+                    "title": "Aumenta a visibilidade: ",
+                    "text": "Marcas sem design ou com design inadequado correm o risco de serem ignoradas, necessitando de investimentos adicionais em marketing e publicidade."
+                  },
+                  "3": {
+                    "title": "Facilita a compra: ",
+                    "text": "Um bom design atua como facilitador, auxiliando o consumidor na decisão de compra."
+                  },
+                  "4": {
+                    "title": "Otimiza a usabilidade: ",
+                    "text": "O design eficaz reduz significativamente a curva de aprendizado, tornando a interação mais intuitiva."
+                  },
+                  "5": {
+                    "title": "Constrói identidade: ",
+                    "text": "Assim como os indivíduos, as marcas precisam de uma identidade sólida. O design contribui para a diferenciação e construção da personalidade da marca."
+                  },
+                  "6": {
+                    "title": "Retém o público-alvo: ",
+                    "text": "O design atraente cria identificação, incentivando a fidelização do cliente à sua marca."
+                  },
+                  "7": {
+                    "title": "Credibilidade: ",
+                    "text": "A confiança é fundamental, e uma comunicação visual bem elaborada é o primeiro passo para construí-la."
+                  },
+                  "8": {
+                    "title": "Facilita a comunicação: ",
+                    "text": "Uma identidade visual bem desenhada direciona efetivamente a conversa com o público, tornando a implementação de estratégias mais fácil e eficiente."
+                  }
+                },
+                "text2": "Investir em identidade visual não é apenas uma opção, mas uma estratégia essencial para se destacar no mercado, construir relacionamentos duradouros com os clientes e fortalecer a presença da sua marca."
+              },
+              "3": {
+                "question": "Qual é a distinção entre logotipo e identidade visual?",
+                "text": "Enquanto o logotipo é simplesmente um elemento gráfico que simboliza a sua empresa, o design da Identidade Visual é notavelmente mais abrangente. Vai além do logotipo, incorporando uma variedade de elementos que dão personalidade à marca, como cores, tipografia, ícones, texturas, estampas e diversas outras possibilidades. A Identidade Visual não se limita apenas ao aspecto gráfico; abrange os pontos de contato da marca e todo o seu universo visual. Adicionalmente, tem em conta o contexto atual da empresa e os seus objetivos futuros, considerando variáveis ​​e âmbitos para garantir uma representação coerente e evolutiva da identidade da marca."
+              },
+              "4": {
+                "question": "Como se desenvolve o processo de contratação de serviços?",
+                "text": "O processo de contratação do serviço começa no contato inicial, onde você compartilha detalhes sobre o seu negócio. Após uma análise de viabilidade, agendamos uma reunião para aprofundar as informações necessárias. A seguir, apresento uma proposta que inclui custos e prazos detalhados, transformando-se automaticamente em contrato para garantir ambas as partes. Ao aceitar os termos, basta assinar e devolver o contrato, com pagamento antecipado de 50% do custo total do projeto servindo como sinal para reservar a data acordada."
+              },
+              "5": {
+                "question": "Como efetuar o pagamento?",
+                "text": "Para facilitar o processo de pagamento, oferecemos a comodidade de transferência bancária, Pix ou boleto (boleto bancário). A forma de pagamento padrão exige pagamento antecipado de 50%, sendo o restante valor devido na apresentação do projeto. Se preferir explorar opções de parcelamento via cartão de crédito, detalhes específicos podem ser discutidos para atender às suas necessidades."
+              },
+              "6": {
+                "question": "Qual é o próximo passo depois de fazer o pagamento inicial de 50%?",
+                "text": "Após o pagamento da entrada de 50%, consideraremos o contrato encerrado, ficando reservada a data especificada no contrato. Em seguida, enviarei um segundo formulário para coletar informações cruciais para o projeto, servindo como um briefing detalhado. Esta etapa garante que as especificidades do projeto sejam compreendidas e incorporadas de forma eficiente, contribuindo para um processo de desenvolvimento alinhado às suas expectativas."
+              },
+              "7": {
+                "question": "Qual é o cronograma médio para entrega da apresentação do projeto?",
+                "text": "O prazo médio para entrega de uma apresentação de projeto de Identidade Visual é de aproximadamente 30 dias, com possíveis variações dependendo da complexidade específica do projeto. É fundamental ressaltar que caso haja projetos em andamento, o seu ficará na fila, conforme descrito na proposta. Este processo existe para garantir atenção cuidadosa e dedicada, necessária para fornecer resultados de alta qualidade."
+              },
+              "8": {
+                "question": "Você cria apenas o logotipo?",
+                "text": "Não, nosso serviço engloba a criação do projeto de Identidade Visual completo, não se limitando apenas ao logotipo. Isso inclui elementos como cores, tipografia, ícones, texturas, padrões e outros componentes visuais que, quando combinados, constroem uma representação visual consistente e diferenciada para sua marca."
+              },
+              "9": {
+                "question": "Se eu já tiver o logotipo pronto, vocês criam apenas os materiais?",
+                "text": "Não, nosso foco é desde o início desenvolver materiais para projetos de Identidade Visual. Se procura um novo projeto ou uma reformulação completa, pretendemos estar disponíveis para criar todos os elementos visuais e materiais que constituem a identidade da sua marca, como cores, tipografia, ícones, texturas, padrões e muito mais."
+              },
+              "10": {
+                "question": "Vocês desenvolvem sites?",
+                "text1": "Sim, desenvolvemos sites. Criamos o protótipo para o design do site, seguindo a identidade visual que foi desenhada. Cadastro, hospedagem, programação e implantação são realizados em parceria com o ",
+                "underline": "Studio Murandido",
+                "text2": ". Temos o compromisso de fornecer uma presença online que não apenas reflita sua identidade visual, mas também proporcione uma experiência eficiente e envolvente aos usuários."
+              }
+            }
+          }
+        },
+        "language": {
+          "title": "Selecione idioma | Estúdio Cauê Henrique",
+          "description": "Selecione idioma"
+        }, 
+        "components": {
+          "header": {
+            "links": {
+              "home": "Home",
+              "articles": "Artigos",
+              "about": "Sobre",
+              "budget": "Orçamento",
+              "commonquestions": "Perguntas frequentes"
+            }
+          },
+          "footer": {
+            "language": "Idioma: "
+          }
+        }
+      }
+    },
+    {
+      "locale": "en",
+      "value": {
+        "index": {
+          "title": "Cauê Henrique | Brand design studio",
+          "description": "If your design doesn't speak to the right audience, who is it telling its story to?",
+          "carousel": {
+            "title": "Design that communicates attracts and creates bonds.",
+            "button": "Discover our method"
+          },
+          "knowMore": {
+            "title": "Need a project? Schedule a call!",
+            "text": "Each person communicates uniquely. So, how can you be sure your design is connecting with your ideal audience? Let's discuss this in a call to ensure your brand communicates in the right way.",
+            "button": "Schedule a call"
+          }
+        },
+        "reallimpeza": {
+          "title": "Real Limpeza | Cauê Henrique brand design studio",
+          "description": "Visual identity developed for Real Limpeza, a brand that serves a wide range of clients in the cleaning sector in Brazil.",
+          "page": {
+            "subtitle": "Quality with responsibility",
+            "text1": "Real Limpeza is a company specialized in residential, commercial, and industrial cleaning services, including glass cleaning, facades, and post-construction. Behind the objective, the re-design was directed towards a more introverted approach, but not overly serious. Working within this middle ground was essential, considering that the brand serves both B2B and B2C clients. In addition to decisions made for the broader audience, one of the goals was to modernize the company in a striking, appealing, and current manner.",
+            "text2": "Due to a strong presence on Instagram, it was necessary to create a solution for quick and complementary applications in the brand's designs. Therefore, a pattern of stickers with easy reproduction was created, allowing for the enhancement of some posts and/or necessary applications.",
+            "text3": "The gradient solved not just one, but two problems at once: communicating with a broad audience and adding the \"eye-catching\" characteristic, as required in the Tune phase.",
+            "text4": "Initially, during the Reason stage, the gradient consisted only of shades of blue. However, to meet the need to be more attention-grabbing, it was decided to add the color orange, providing the highlight that was missing.",
+            "text5": "The redesign of Real Limpeza was essential in defining the new phase of the company. Guiding the brand's renewal, not only visually but also in the intangible characteristics of this new stage."
+          }
+        },
+        "devine": {
+          "title": "Devine | Cauê Henrique brand design studio",
+          "description": "Visual identity developed for Devine, a brand catering to a wide variety of clients in the alfajor confectionery sector.",
+          "page": {
+            "subtitle": "Every bite, a divine experience.",
+            "text1": "Devine is a confectionery offering a wide variety of alfajores flavors, standing out with its extroverted, creative, and fun approach. Devine's visual identity was created to reflect these striking characteristics and differentiate itself from other confectioneries through its vibrant color palette, considering the absence of relevant direct competitors. Utilizing a distinctive and vibrant visual communication, Devine aims to attract and retain customers, creating a lasting connection based on a passion for its delicious and varied alfajores.",
+            "text2": "The Devine pattern includes two main elements: stars and a checkered pattern. Stars are used to highlight visual elements in images or designs, while the checkered pattern combines squares and stars to fill the design. These patterns reflect the values and essence of the brand, characterized by being outgoing, creative, and fun. The vibrant color palette and repetition of elements enhance Devine's unique energy and creativity.",
+            "text3": "The Devine image pattern incorporates a subtle purple hue into its photos, integrating them into the vibrant visual identity of the brand. This distinctive touch not only complements but also reinforces the energy and creativity that define Devine, ensuring consistency and impact across all visual communications."
+          }
+        },
+        "xchango": {
+          "title": "Xchango | Cauê Henrique brand design studio",
+          "description": "Visual identity developed for Xchango, a game-changing platform designed to facilitate currency investments.",
+          "page": {
+            "subtitle": "Keep the track effortlessly",
+            "text1": "Xchango is a game-changing platform designed to facilitate currency investments, catering to both beginners looking to start investing and needing guidance, as well as seasoned investors seeking to simplify their investment strategies. Its mission is to make investing accessible and secure by allowing precise tracking of currency fluctuations and providing constant updates on the valuation of specific currencies. Through email and website updates, Xchango keeps users informed and ready to seize the best transaction opportunities.",
+            "text2": "The Xchango's icons were created with beveled edges and a robust aesthetic, incorporating sharp corners for a distinctive and impactful appearance. Designed to complement and stand out, they established a cohesive visual identity that balanced a friendly image with a professional demeanor, enabling use as both icons and assets for design compositions.",
+            "text3": "The main pattern of Xchango consists of a series of yellow and orange half-squares, which come together to form strips, zigzags, and figurative elements. The pattern is designed to be versatile, capable of creating simple compositions like bands or backgrounds, as well as more complex objects such as crowns or hearts. The concept allows creative freedom to craft attractive and diverse shapes that complement Xchango's visual identity.",
+            "text4": "More web developments coming soon."
+          }
+        },
+        "murandido": {
+          "title": "Murandido | Cauê Henrique brand design studio",
+          "description": "Visual identity developed for Murandido, fullstack development",
+          "page": {
+            "subtitle": "Turning ideas into next-gen realities",
+            "text1": "Murandido is a Full-Stack programmer, which means he works on all aspects of website and application development. He can handle everything from the appearance of the site to what happens behind the scenes. With experience in web development since 2020, he began his journey with HTML and CSS, quickly progressing to PHP, JavaScript, and specializing in React, NextJS, NodeJS, and PHP. He also has knowledge in C#, Java, C++, Rust, React Native, and Expo for mobile development.",
+            "text2": "Considering the brand's presence on the website, it was necessary to create a complementary solution for the brand designs. To meet this demand, a pattern of easily reproducible stickers was developed. These stickers allow for the practical and efficient complementation of various designs and other applications.",
+            "text3": "The Murandido's identity was centered around the website, with applications designed specifically for this purpose and created through the Figma website design platform. With this idea in mind, a combination of elements was developed, including gradient and glass-effect.",
+            "text4": "The concept of this pattern is to allow dynamic movements within the website, highlighting and valuing not only the Murandido platform but also its ability to create websites that harmonize functionality and aesthetics in a distinctive way."          }
+        },
+        "articles": {
+          "title": "Articles | Cauê Henrique studio",
+          "descritption": "There is no more effective way to showcase expertise than through articles. Come and discover our visual identity studies.",
+          "page": {
+            "title": "ARTICLES",
+            "text1": "Here, we have deposited some articles written by ",
+            "underline": "Cauê Henrique",
+            "text2": ". We hope they can guide your perception of our work as a brand and interface design studio.",
+            "subtext": "Beyond the Computer: The Creative Process in Logo Design"
+          }
+        },
+        "about": {
+          "title": "About | Cauê Henrique studio",
+          "description": "It's about creating creative solutions for brands that need to differentiate in the market scenario",
+          "page": {
+            "title": "ABOUT",
+            "subtitle1": "We are a brand design studio that believes in human connection",
+            "text1": "We believe in human-centered design, which not only connects with the audience's style but also creates lasting connections with customers. We understand that each human being communicates and lives in a unique way, and with this perspective in mind, we create visual identities that appeal to the right audience. Through extensive studies of your brand, we craft designs that express themselves in an appealing manner to the right people.",
+            "subtitle2": "about cauê henrique",
+            "text2": "Passionate about art and his own studies, Cauê Henrique is a brand and interface designer. He discovered this passion after, influenced by his father, starting a graphic design course at the young age of 14. This influence didn't come out of nowhere; his father decided to guide him after recognizing Cauê's potential when he independently created a logo for his father's new venture. Now, as the art director of this studio, he transforms studies into memorable identities that effectively communicate with the target audience. Come and discover how the 5 stages of his methodology work.",
+            "subtitle3": "Get to know our five steps methodology",
+            "stepNumber1": "1",
+            "stepOrdinalSymbol1": "st",
+            "stepTitle1": "IMERSSION",
+            "stepText1": "An experience to \"immerse\" oneself in the process and comprehend how design will position your brand in the market. Analyses that will assist us in understanding the purpose, the process, and the \"reason for being\" of your brand. We will analyze who your target audience is, who the competitors are, and how your brand can stand out in the market.",
+            "stepNumber2": "2",
+            "stepOrdinalSymbol2": "nd",
+            "stepTitle2": "TUNE",
+            "stepText2": "A collaboration to centralize, balance, and identify the exact path of our journey. A report will be presented summarizing all analyses and findings up to this point. We will engage in an activity to define the visual direction, align expectations, and strategically guide our efforts.",
+            "stepNumber3": "3",
+            "stepOrdinalSymbol3": "rd",
+            "stepTitle3": "REASON",
+            "stepText3": "A flow of ideas materializing effective solutions in shapes, colors, typography, and supporting elements. It's time to bring to life the strategies outlined in previous stages. Through sketches, we will generate a set of ideas aligned with the brand guidelines. Subsequently, we will filter the best options and refine them until we achieve the ideal format.",
+            "stepNumber4": "4",
+            "stepOrdinalSymbol4": "th",
+            "stepTitle4": "MANIFEST",
+            "stepText4": "The grand moment to present the results with brand applications and the creative process. With the participation of all partners, we will recap the project's development from the beginning to the central idea. This will enable an understanding of the functionalities and advantages of the new visual system.",
+            "stepNumber5": "5",
+            "stepTitle5": "EPILOGUE",
+            "stepText5": "Conclusion and file delivery, including the logo and its versions, font, graphic elements, and a manual. We've prepared a package with all deliverables, accompanied by an essential guide for the internal design team and partners. This document provides crucial information for the accurate reproduction of the brand, safeguarding its fundamental characteristics.",
+            "subtitle4": "Methodology for brands that want to grow",
+            "text3": "Methodology, that's the right word to describe the path to success, especially in identity design. It's no coincidence that this is the design area most valued by major brands. We hope this has been enough to guide your perception of our work and make clear the importance of visual identity for your company.",
+            "subtitle5": "Partners and plus",
+            "text4": "If your project extends into the digital web sphere, we are ready to bring your online vision to life. In partnership with ",
+            "underline": "Studio Murandido",
+            "text5": ", a full-stack programming team, we offer website solutions capable of enhancing your online presence effectively. Count on us to transform your identity not only in design but also into a distinctive digital presence."
+          }
+        },
+        "budget": {
+          "title": "Budget | Cauê Henrique studio",
+          "description": "Let's schedule a call meeting to discuss the project and improve your company visual communication",
+          "page": {
+            "title": "BUDGET",
+            "subtitle": "Transforming challenges into opportunities",
+            "text": "Let's schedule a call meeting to discuss the project and improve your company visual communication!",
+            "formLink": "https://form.respondi.app/8wo7tGyQ"
+          }
+        },
+        "commonquestions": {
+          "title": "Common questions | Cauê Henrique studio",
+          "description": "To simplify our work and enhance our clients' understanding, this page has been created with the most common questions about our services and visual identity.",
+          "page": {
+            "title": "COMMON QUESTIONS",
+            "text": "To simplify our work and enhance our clients' understanding, this page has been created with the most common questions about our services.",
+            "questions": {
+              "1": {
+                "question": "What is Visual Identity?",
+                "text": "Visual Identity is a set of elements that visually express the essence of a company, person, service, or event. Comprising colors, typography, and specific shapes, it centers around the logo as its central element, serving as the foundation for all related materials."
+              },
+              "2": {
+                "question": "Why Invest in Visual Identity?",
+                "text1": "Similar to an individual, a company needs its own identity that sets it apart and makes it unique. This not only instills confidence in the customer but also aids in memorability and identification across various brand touchpoints such as business cards, bags, packaging, letterheads, envelopes, among others. Below, we highlight eight reasons why investing in design is crucial for the success of your company:",
+                "list": {
+                  "1": {
+                    "title": "Adds Value: ",
+                    "text": "Brands with interesting design stand out from the competition, allowing for pricing with higher profit margins."
+                  },
+                  "2": {
+                    "title": "Increases Visibility: ",
+                    "text": "Brands without design or with inappropriate design risk being overlooked, necessitating additional investments in marketing and advertising."
+                  },
+                  "3": {
+                    "title": "Facilitates Purchase: ",
+                    "text": "Good design acts as a facilitator, assisting the consumer in the purchasing decision."
+                  },
+                  "4": {
+                    "title": "Optimizes Usability: ",
+                    "text": "Effective design significantly reduces the learning curve, making interaction more intuitive."
+                  },
+                  "5": {
+                    "title": "Builds Identity: ",
+                    "text": "Like individuals, brands need a solid identity. Design contributes to the distinctiveness and personality construction of the brand."
+                  },
+                  "6": {
+                    "title": "Retains the Target Audience: ",
+                    "text": "Attractive design creates identification, encouraging customer loyalty to your brand."
+                  },
+                  "7": {
+                    "title": "Credibility: ",
+                    "text": "Trust is fundamental, and well-crafted visual communication is the first step in building that trust."
+                  },
+                  "8": {
+                    "title": "Facilitates Communication: ",
+                    "text": "Well-designed visual identity effectively directs the conversation with the audience, making the implementation of strategies easier and more efficient."
+                  }
+                },
+                "text2": "Investing in Visual Identity is not just an option but an essential strategy to stand out in the market, build lasting relationships with customers, and strengthen your brand presence."
+              },
+              "3": {
+                "question": "What is The Distinction between Logo and Visual Identity?",
+                "text": "While the logo is simply a graphic element that symbolizes your company, the Visual Identity design is notably more comprehensive. It goes beyond the logo, incorporating a variety of elements that give personality to the brand, such as colors, typography, icons, textures, patterns, and various other possibilities. Visual Identity is not limited to the graphic aspect alone; it embraces the brand's touchpoints and its entire visual universe. Additionally, it takes into account the current context of the company and its future goals, considering variables and scopes to ensure a coherent and evolving representation of the brand's identity."
+              },
+              "4": {
+                "question": "How Does the Service Hiring Process Unfold?",
+                "text": "The process to hire the service begins with the initial contact, where you share details about your business. Following a feasibility analysis, we schedule a meeting to delve into the necessary information. Next, I present a proposal that includes detailed costs and timelines, automatically transforming into a contract to ensure both parties. Upon accepting the terms, simply sign and return the contract, with a 50% upfront payment of the total project cost serving as a signal to reserve the agreed-upon date."
+              },
+              "5": {
+                "question": "How to Make the Payment?",
+                "text": "To facilitate the payment process, we offer the convenience of bank transfer, Pix, or boleto (bank slip). The standard payment method requires a 50% upfront payment, with the remaining amount due upon project presentation. If you prefer to explore installment options via credit card, specific details can be discussed to meet your needs."
+              },
+              "6": {
+                "question": "What's the Next Step After Making the 50% Down Payment?",
+                "text": "After the 50% down payment is made, we will consider the agreement closed, and the date specified in the contract will be reserved. Following this, I will send a second form to gather crucial information for the project, serving as a detailed briefing. This step ensures that the project's specifics are understood and incorporated efficiently, contributing to a development process aligned with your expectations."
+              },
+              "7": {
+                "question": "What is the Average Timeline for Project Presentation Delivery?",
+                "text": "The average timeline for delivering a Visual Identity project presentation is approximately 30 days, with potential variations depending on the specific complexity of the project. It's crucial to note that if there are ongoing projects, yours will be queued, as outlined in the proposal. This process is in place to ensure careful and dedicated attention, necessary to provide high-quality results."
+              },
+              "8": {
+                "question": "Do you create only the logo?",
+                "text": "No, our service encompasses the creation of the complete Visual Identity project, not limited to just the logo. This includes elements such as colors, typography, icons, textures, patterns, and other visual components that, when combined, build a consistent and distinctive visual representation for your brand."
+              },
+              "9": {
+                "question": "If I already have the logo ready, do you only create the materials?",
+                "text": "No, our focus is on developing materials for Visual Identity projects from the beginning. If you're looking for a new project or a complete redesign, we aim to be available to create all visual elements and materials that constitute your brand's identity, such as colors, typography, icons, textures, patterns, and more."
+              },
+              "10": {
+                "question": "Do you develop websites?",
+                "text1": "Yes, we do develop websites. We create the prototype for the website design, following the visual identity that has been designed. Registration, hosting, programming, and implementation are carried out in partnership with ",
+                "underline": "Studio Murandido",
+                "text2": ". We are committed to providing an online presence that not only reflects your visual identity but also delivers an efficient and engaging experience for users."
+              }
+            }
+          }
+        },
+        "language": {
+          "title": "Select language | Cauê Henrique studio",
+          "description": "Select language",
+          "page": {}
+        },
+        "components": {
+          "header": {
+            "links": {
+              "home": "Home",
+              "articles": "Articles",
+              "about": "About",
+              "budget": "Budget",
+              "commonquestions": "Common questions"
+            }
+          },
+          "footer": {
+            "language": "Language: "
+          }
+        }
+      }
+    }
+  ]
+}

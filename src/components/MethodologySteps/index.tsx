@@ -1,5 +1,6 @@
+"use client"
 import useStepControls from "@/hooks/useStepControls";
-import { motion } from "framer-motion";
+import { motion } from "motion/react";
 import { useState } from "react";
 
 export interface MethodologyStepsProps {
@@ -28,7 +29,7 @@ export default function MethodologyStep({ steps }: MethodologyStepsProps) {
         forStep.number === currentStep.number &&
         nextStep.number > currentStep.number
       ) {
-        controls[forStep.label].start({ opacity: 0, y: 0 });
+        controls[forStep.label].set({ opacity: 0, y: 0 });
         continue;
       }
 
@@ -37,7 +38,7 @@ export default function MethodologyStep({ steps }: MethodologyStepsProps) {
         forStep.number === currentStep.number &&
         nextStep.number < currentStep.number
       ) {
-        controls[forStep.label].start({ opacity: 1, y: "41rem" });
+        controls[forStep.label].set({ opacity: 1, y: "41rem" });
         continue;
       }
 
@@ -46,7 +47,7 @@ export default function MethodologyStep({ steps }: MethodologyStepsProps) {
         forStep.number === nextStep.number &&
         nextStep.number > currentStep.number
       ) {
-        controls[forStep.label].start({ opacity: 1, y: 0 });
+        controls[forStep.label].set({ opacity: 1, y: 0 });
         continue;
       }
 
@@ -55,7 +56,7 @@ export default function MethodologyStep({ steps }: MethodologyStepsProps) {
         forStep.number === nextStep.number &&
         nextStep.number < currentStep.number
       ) {
-        controls[forStep.label].start({ opacity: 1, y: 0 });
+        controls[forStep.label].set({ opacity: 1, y: 0 });
         continue;
       }
 
@@ -104,12 +105,12 @@ export default function MethodologyStep({ steps }: MethodologyStepsProps) {
           ))}
         </ul>
       </nav>
-      <div className="relative flex h-[22.125rem] items-center justify-center bg-primary-suporte max-2xl:h-[32.875rem] max-2xl:rounded-lg max-sm:h-[42rem] max-xs:h-[15.125rem] max-steps:h-[24rem]">
-        {steps.map((item) => (
+      <div className="relative flex h-88.5 items-center justify-center bg-primary-suporte max-2xl:h-131.5 max-2xl:rounded-lg max-sm:h-168 max-xs:h-60.5 max-steps:h-96">
+        {steps.map((item, index) => (
           <motion.div
             className="absolute mx-20 flex flex-col gap-4 font-gelica text-xl max-xs:mx-8 max-xs:gap-2"
             key={item.label}
-            initial={item.number !== 1 ? { y: "41rem" } : { y: 0 }}
+            initial={index !== 0 ? { y: "41rem" } : { y: 0 }}
             animate={controls[item.label]}
             transition={{ type: "spring", bounce: 0.15, duration: 1 }}
           >

@@ -15,7 +15,7 @@ export default function ArticlesLink({
   return (
     <Link
       href={link}
-      className="group flex max-w-[31.5rem] flex-col rounded-xl border border-[#D9D9D9]"
+      className="group flex max-w-126 flex-col rounded-xl border border-[#D9D9D9]"
     >
       <div className="overflow-hidden rounded-xl">
         <Image

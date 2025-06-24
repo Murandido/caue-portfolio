@@ -1,12 +1,17 @@
+'use client'
 import Image from "next/image";
 import { MouseEvent, useEffect, useState } from "react";
 import { motion, Variants } from "framer-motion";
 
 interface CarouselProps {
   slides: string[];
+  translation: {
+    title: string;
+    button: string;
+  }
 }
 
-export default function Carousel({ slides }: CarouselProps) {
+export default function Carousel({ slides, translation }: CarouselProps) {
   const [currentSlide, setCurrentSlide] = useState<number>(0);
   const [cursorURL, setCursorURL] = useState<
     "/leftArrowIcon.svg" | "/rightArrowIcon.svg"
@@ -111,7 +116,7 @@ export default function Carousel({ slides }: CarouselProps) {
             return (
               <div
                 key={i}
-                className={`h-[48.25rem] min-w-[100vw] bg-cover bg-center max-xs:h-[28.75rem]`}
+                className={`h-193 min-w-screen bg-cover bg-center max-xs:h-115`}
                 style={{
                   backgroundImage: `url(${slides[i]})`,
                 }}
@@ -121,18 +126,15 @@ export default function Carousel({ slides }: CarouselProps) {
         </div>
 
         {/* hero */}
-        <div className="min-sw-[33.5rem] absolute top-[4.75rem] flex w-full justify-center max-xs:top-12">
-          <div className="mx-[11.25rem] w-[33.5rem] text-center text-2xl font-bold uppercase leading-[150%] max-xs:mx-8 max-xs:text-sm">
-            Design that communicates attracts and creates bonds.
+        <div className="min-sw-[33.5rem] absolute top-19 flex w-full justify-center max-xs:top-12">
+          <div className="mx-45 w-134 text-center text-2xl font-bold uppercase leading-[150%] max-xs:mx-8 max-xs:text-sm">
+            {translation.title}
           </div>
         </div>
 
         {/* cursor */}
-        <motion.div
-          className="fixed left-0 top-0"
-          variants={variants}
-          animate={mouseAnimation}
-        >
+        {/* @ts-ignore */}
+        <motion.div className="fixed left-0 top-0" variants={variants} animate={mouseAnimation}>
           <Image
             className="h-20 w-20"
             alt="mouse cursor"
@@ -157,10 +159,10 @@ export default function Carousel({ slides }: CarouselProps) {
         />
 
         {/* button */}
-        <div className="absolute bottom-[4.75rem] left-1/2 flex -translate-x-1/2 flex-col items-center gap-11 max-xs:bottom-[3.25rem]">
+        <div className="absolute bottom-19 left-1/2 flex -translate-x-1/2 flex-col items-center gap-11 max-xs:bottom-13">
           <div>
-            <button className="rounded-full border border-black px-[3.25rem] py-3 font-gelica text-xl transition hover:bg-black hover:text-white max-xs:px-10 max-xs:py-2 max-xs:text-xs">
-              Discover our method
+            <button className="rounded-full border border-black px-13 py-3 font-gelica text-xl transition hover:bg-black hover:text-white max-xs:px-10 max-xs:py-2 max-xs:text-xs">
+              {translation.button}
             </button>
           </div>
         </div>

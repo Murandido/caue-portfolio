@@ -1,15 +1,25 @@
 import Image from "next/image";
 
 import caueHenriqueLogoSVG from "../../assets/logos/caueHenriqueLogo.svg";
+import { RouteLocale, Router, schema } from "next-roots";
 
-export default function Footer() {
+interface FooterProps {
+  translation: {
+    language: string;
+  },
+  locale: RouteLocale;
+}
+
+export default function Footer({ translation, locale }: FooterProps) {
+  const router = new Router(schema);
+
   return (
     <footer className="min-w-minimum border-t font-gelica text-xl leading-[150%] max-md:text-xs max-xs:text-[10px]">
-      <div className="mx-[11.25rem] my-11 max-xl:mx-[5.5rem] max-xl:my-12 max-xs:mx-8 max-xs:my-5">
+      <div className="mx-45 my-11 max-xl:mx-22 max-xl:my-12 max-xs:mx-8 max-xs:my-5">
         <div className="flex items-end justify-between">
           <a className="flex" href="#">
             <Image
-              className="max-xs:h-6 max-xs:w-[4.25rem]"
+              className="max-xs:h-6 max-xs:w-17"
               src={caueHenriqueLogoSVG}
               alt="caue henrique logo"
             />
@@ -55,9 +65,9 @@ export default function Footer() {
             </a>
           </div>
           <div className="flex-none max-lg:hidden">
-            Language:{" "}
-            <a className="hover:text-primary-400 hover:underline" href="#">
-              EN
+            {translation.language}
+            <a className="hover:text-primary-400 hover:underline uppercase" href={router.getHref("/language", { locale })}>
+              {locale}
             </a>
           </div>
         </div>
