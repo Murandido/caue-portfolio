@@ -35,11 +35,14 @@ export default async function Home({ locale }: { locale: RouteLocale;}) {
     "https://i.imgur.com/fEtbq3j.png",
   ];
 
+  const linkCarousel = router.getHref("/about", { locale });
+  const linkKnowMore = router.getHref("/budget", { locale })
+
   return (
     <>
-      <Carousel slides={slides} translation={carouselT} />
+      <Carousel link={linkCarousel} slides={slides} translation={carouselT} />
       <WorksMenu locale={locale} />
-      <KnowMore translation={knowMoreT} />
+      <KnowMore link={linkKnowMore} translation={knowMoreT} />
     </>
   );
 }

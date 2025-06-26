@@ -36,29 +36,29 @@ export default function Footer({ translation, locale }: FooterProps) {
           <div className="flex flex-1 flex-wrap gap-12 max-lg:justify-around max-lg:gap-0">
             <a
               className="mx-2 hover:text-primary-400 hover:underline"
-              href="mailto:contact@cauehenrique.com"
+              href="mailto:hello@cauhca.com"
               target="_blank"
               rel="noreferrer"
             >
-              contact@cauehenrique.com
+              hello@cauehca.com
             </a>
             <a
               className="mx-2 hover:text-primary-400 hover:underline"
-              href="/"
+              href="https://www.instagram.com/vanguardastudios/"
               target="_blank"
             >
               Instagram
             </a>
             <a
               className="hover:underlinemx-2 hover:text-primary-400"
-              href="/"
+              href="http://www.behance.net/cauehca"
               target="_blank"
             >
               Behance
             </a>
             <a
               className="mx-2 hover:text-primary-400 hover:underline"
-              href="/"
+              href="http://www.linkedin.com/in/cauehca"
               target="_blank"
             >
               Linkedin

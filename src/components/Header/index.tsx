@@ -6,7 +6,7 @@ import HamburgerButton from "./HamburgerButton";
 import CompactNavbar from "../CompactNavbar";
 
 import caueHenriqueLogoSVG from "../../assets/logos/caueHenriqueLogo.svg";
-import { useRouter } from "next/navigation";
+import { usePathname } from "next/navigation";
 import { Links } from "@/roots/layout";
 
 interface HeaderProps {
@@ -15,7 +15,7 @@ interface HeaderProps {
 
 export default function Header({ links }: HeaderProps) {
   const [isMenuClicked, setIsMenuClicked] = useState<boolean>(false);
-  const dynamicRoute = useRouter();
+  const dynamicRoute = usePathname();
 
   useEffect(() => {
     setIsMenuClicked(false);
@@ -41,12 +41,6 @@ export default function Header({ links }: HeaderProps) {
           </Link>
           <Link
             className="hover:text-primary-400 hover:underline"
-            href={links.articles.href}
-          >
-            {links.articles.name}
-          </Link>
-          <Link
-            className="hover:text-primary-400 hover:underline"
             href={links.about.href}
           >
             {links.about.name}
@@ -65,7 +59,7 @@ export default function Header({ links }: HeaderProps) {
           </Link>
         </nav>
         <HamburgerButton state={[isMenuClicked, setIsMenuClicked]} />
-        <CompactNavbar isMenuClicked={isMenuClicked} />
+        <CompactNavbar links={links} isMenuClicked={isMenuClicked} />
       </div>
     </header>
   );

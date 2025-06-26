@@ -6,10 +6,11 @@ interface KnowMoreProps {
     title: string;
     text: string;
     button: string;
-  }
+  },
+  link: string;
 }
 
-export default function KnowMore({ translation }: KnowMoreProps) {
+export default function KnowMore({ translation, link }: KnowMoreProps) {
   return (
     <div className="flex min-w-minimum bg-linear-to-b from-tertiary-300">
       {/* div when the page is bigger than 1280px */}
@@ -31,7 +32,7 @@ export default function KnowMore({ translation }: KnowMoreProps) {
           </p>
           <Link
             className="w-full rounded-full border border-tertiary-400 py-3 text-center font-gelica text-xl leading-[150%] transition hover:bg-tertiary-400"
-            href={"/budget"}
+            href={link}
           >
             {translation.button}
           </Link>
@@ -58,7 +59,7 @@ export default function KnowMore({ translation }: KnowMoreProps) {
         </div>
         <Link
           className="w-full rounded-full border border-tertiary-400 py-3 text-center font-gelica text-xl leading-[150%] transition hover:bg-tertiary-400 max-xs:py-2 max-xs:text-xs"
-          href={"/budget"}
+          href={link}
         >
           {translation.button}
         </Link>

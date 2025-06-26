@@ -2,16 +2,18 @@
 import Image from "next/image";
 import { MouseEvent, useEffect, useState } from "react";
 import { motion, Variants } from "framer-motion";
+import Link from "next/link";
 
 interface CarouselProps {
   slides: string[];
   translation: {
     title: string;
     button: string;
-  }
+  },
+  link: string;
 }
 
-export default function Carousel({ slides, translation }: CarouselProps) {
+export default function Carousel({ slides, translation, link }: CarouselProps) {
   const [currentSlide, setCurrentSlide] = useState<number>(0);
   const [cursorURL, setCursorURL] = useState<
     "/leftArrowIcon.svg" | "/rightArrowIcon.svg"
@@ -161,9 +163,9 @@ export default function Carousel({ slides, translation }: CarouselProps) {
         {/* button */}
         <div className="absolute bottom-19 left-1/2 flex -translate-x-1/2 flex-col items-center gap-11 max-xs:bottom-13">
           <div>
-            <button className="rounded-full border border-black px-13 py-3 font-gelica text-xl transition hover:bg-black hover:text-white max-xs:px-10 max-xs:py-2 max-xs:text-xs">
+            <Link href={link} className="rounded-full border border-black px-13 py-3 font-gelica text-xl transition hover:bg-black hover:text-white max-xs:px-10 max-xs:py-2 max-xs:text-xs">
               {translation.button}
-            </button>
+            </Link>
           </div>
         </div>
 

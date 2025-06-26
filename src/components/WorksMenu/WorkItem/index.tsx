@@ -9,7 +9,7 @@ interface WorkItemProps {
 export default function WorkItem({ name, image, link }: WorkItemProps) {
   return (
     <a href={link} className="relative flex">
-      <div className="overflow-hidden">
+      <div className="aspect-[41/36] w-full overflow-hidden">
         <Image
           className="h-full rounded-xl object-cover"
           src={image}

@@ -16,10 +16,6 @@ export type Links = {
     href: string,
     name: string
   },
-  articles: {
-    href: string,
-    name: string
-  },
   about: {
     href: string,
     name: string
@@ -83,10 +79,6 @@ export default async function RootLayout({
     index: {
       href: router.getHref("/", { locale }),
       name: headerT.links.home
-    },
-    articles: {
-      href: router.getHref("/articles", { locale }),
-      name: headerT.links.articles
     },
     about: {
       href: router.getHref("/about", { locale }),
