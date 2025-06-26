@@ -17,7 +17,7 @@ export default function Footer({ translation, locale }: FooterProps) {
     <footer className="min-w-minimum border-t font-gelica text-xl leading-[150%] max-md:text-xs max-xs:text-[10px]">
       <div className="mx-45 my-11 max-xl:mx-22 max-xl:my-12 max-xs:mx-8 max-xs:my-5">
         <div className="flex items-end justify-between">
-          <a className="flex" href="#">
+          <a className="flex" href={router.getHref("/", { locale })}>
             <Image
               className="max-xs:h-6 max-xs:w-17"
               src={caueHenriqueLogoSVG}
@@ -25,9 +25,9 @@ export default function Footer({ translation, locale }: FooterProps) {
             />
           </a>
           <div className="flex-none lg:hidden">
-            Language:{" "}
-            <a className="hover:text-primary-400 hover:underline" href="#">
-              EN
+            {translation.language}
+            <a className="hover:text-primary-400 hover:underline" href={router.getHref("/language", { locale })}>
+              {locale}
             </a>
           </div>
         </div>
