@@ -10,6 +10,7 @@ import OverlayScroll from "@/components/OverlayScroll";
 import { RouteLocale, Router, schema } from "next-roots";
 import { getDictionary } from "@/utils/getDictionary";
 import { Metadata } from "next";
+import { GoogleAnalytics } from "@next/third-parties/google";
 
 export type Links = {
   index: {
@@ -107,6 +108,7 @@ export default async function RootLayout({
           {children}
         </main>
         <Footer locale={locale} translation={footerT} />
+        <GoogleAnalytics gaId="AW-16777407510" />
       </body>
     </html>
   )
